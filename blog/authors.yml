@@ -4,8 +4,20 @@ javlon:
   url: https://github.com/ejavlon
   image_url: https://github.com/ejavlon.png
 
-axror:
-  name: Axror Mamadaliyev
+axrorbek:
+  name: Axrorbek Mamadaliyev
   title: Teacher
   url: https://t.me/ahrorbek_mamadaliyev
   image_url: /img/teacher-ahror.jpg
+
+anazbek:
+  name: Anazbek Mirvaliyev
+  title: Software Engineer, Graphic Designer, Teacher
+  url: https://t.me/Mirvaliyev_Anazbek
+  image_url: 
+
+rahmatilla:
+  name: Rahmatilla
+  title: Teacher
+  url: https://t.me/itmaktabuychi
+  image_url: 

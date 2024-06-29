@@ -1,7 +1,7 @@
 ---
 # slug: new-computer-literacy-course
 title: Kompyuter savodxonligi kurslariga qabul davom etmoqda!
-authors: axror
+authors: axrorbek,rahmatilla
 tags: [savod, boshlangich,word,excel,powerpoint]
 ---
 

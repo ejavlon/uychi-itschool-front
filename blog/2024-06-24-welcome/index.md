@@ -1,7 +1,7 @@
 ---
 # slug: beta
 title: Web saytimiz beta versiyada!
-authors: [javlon,axror]
+authors: [javlon,axrorbek]
 tags: [UYCHI-ITSCHOOL, 'BETA']
 ---
 
@@ -12,17 +12,18 @@ tags: [UYCHI-ITSCHOOL, 'BETA']
 **Quyidagi kurslarimiz**da o'z malakangizni oshiring:
 
 **- Kompyuter savodxonlogi:**
-    - `word`
-    - `excel`
-    - `powerpoint`
-    - `photoshoop`
+    - `Word`
+    - `Excel`
+    - `Powerpoint`
+    - `Photoshoop`
 
 
 **- Fronted development:**    
-    - `html  `
-    - `css`
-    - `javaScript`
+    - `HHTML  `
+    - `CSS`
+    - `SASS`
+    - `JavaScript`
 
 **- Grafik dizayn `new`**
 
-***UYCHI IT SCHOOL*** - Zamonaviy kasblarni biz bilan birga o'rganing!
+***UYCHI IT SCHOOL*** - zamonaviy kasblarni biz bilan birga o'rganing!

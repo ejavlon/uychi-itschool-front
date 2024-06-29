@@ -1,7 +1,7 @@
 ---
 # slug: new-fronted-course
 title: Frontend kurslarimizga qabul davom etmoqda
-authors: javlon
+authors: anazbek
 tags: [frontend, html,css,sass,javaScript]
 ---
 
