@@ -15,13 +15,6 @@ public class Main{
 ```
 
 
-```powerShell md title="powerShell yoki bash uchun comanda"
-  javac Main.java
-  
-  java Main
-```
-
-
 export const Highlight = ({children, color}) => (
   <span
     style={{
@@ -40,6 +33,6 @@ export const Highlight = ({children, color}) => (
   </span>
 );
 
-<Highlight color="green">Code'ni ishga tushurish </Highlight>
+<Highlight color="green">RUN</Highlight>
 
 :::danger tez kunda 
