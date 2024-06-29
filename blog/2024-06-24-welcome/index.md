@@ -1,7 +1,7 @@
 ---
 # slug: beta
 title: Web saytimiz beta versiyada!
-authors: javlon
+authors: [javlon,sherzod]
 tags: [UYCHI-ITSCHOOL, 'BETA']
 ---
 
