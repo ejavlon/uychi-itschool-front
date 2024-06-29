@@ -1,8 +1,8 @@
 ---
 # slug: beta
 title: Web saytimiz beta versiyada!
-authors: [javlon]
-tags: [it-school, 'beta versiya']
+authors: [javlon,axror]
+tags: [UYCHI-ITSCHOOL, 'BETA']
 ---
 
 ![uychi-itschool brand.png](../../static/img/it-rb.png)
