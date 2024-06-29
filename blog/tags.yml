@@ -1,12 +1,45 @@
-facebook:
-  label: Facebook
-  permalink: /facebook
-  description: Facebook tag description
-hello:
-  label: Hello
-  permalink: /hello
-  description: Hello tag description
-hola:
-  label: Hola
-  permalink: /hola
-  description: Hola tag description
+boshlangich:
+  label: Boshlang'ich
+  permalink: /boshlangich
+  description: Boshlang'ich savodxonligiga doir barcha postlar
+
+savod:
+  label: Kompyuter savodxonligi
+  permalink: /savod
+  description: Kompyuter savodxonligiga doir barcha postlar
+
+word:
+  label: Word
+  permalink: /word
+  description: Word kalit so'ziga doir barcha postlar
+
+excel:
+  label: Excel
+  permalink: /excel
+  description: Excel kalit so'ziga doir barcha postlar
+
+powerpoint:
+  label: Powerpoint
+  permalink: /powerpoint
+  description: Powerpoint kalit so'ziga doir barcha postlar
+
+frontend:
+  label: Frontend
+  permalink: /frontend
+  description: Frontend kalit so'ziga doir barcha postlar
+
+css:
+  label: CSS
+  permalink: /css
+  description: CSS kalit so'ziga doir barcha postlar
+
+sass:
+  label: Sass
+  permalink: /sass
+  description: Sass kalit so'ziga doir barcha postlar
+
+javaScript:
+  label: JavaScript
+  permalink: /javaScript
+  description: JavaScript kalit so'ziga doir barcha postlar
+

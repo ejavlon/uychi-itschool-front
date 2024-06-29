@@ -2,7 +2,7 @@
 # slug: new-fronted-course
 title: Qabul davom etmoqda
 authors: javlon
-tags: [fronted, html,css,javaScript]
+tags: [fronted, html,css,sass,javaScript]
 ---
 
 #### Yangi **`fronted`** kursimizga qabul davom etmoqda
