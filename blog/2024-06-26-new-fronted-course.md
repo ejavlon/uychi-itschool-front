@@ -9,7 +9,7 @@ authors:
 tags: [fronted, html,css]
 ---
 
-#### Yangi `fronted` kursimizga qabul davom etmoqda
+#### Yangi **`fronted`** kursimizga qabul davom etmoqda
 
 **- Vaqt grafiklari:**
 

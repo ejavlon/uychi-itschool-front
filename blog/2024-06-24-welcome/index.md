@@ -5,11 +5,11 @@ authors: [javlon]
 tags: [it-school, 'beta versiya']
 ---
 
-![Docusaurus Plushie](../../static/img/it-rb.png)
+![uychi-itschool brand.png](../../static/img/it-rb.png)
 
 [Web saytimiz](https://uychi-itschool.uz) demo rejimda ish faolyatini boshladi.
 
-Quyidagi kurslarimiz'da o'z malakangizni oshiring:
+**Quyidagi kurslarimiz**da o'z malakangizni oshiring:
 
 **- Kompyuter savodxonlogi:**
     - `word`
@@ -18,7 +18,7 @@ Quyidagi kurslarimiz'da o'z malakangizni oshiring:
     - `photoshoop`
 
 
-**- Fronted asoslari:**    
+**- Fronted development:**    
     - `html  `
     - `css`
     - `javaScript`
