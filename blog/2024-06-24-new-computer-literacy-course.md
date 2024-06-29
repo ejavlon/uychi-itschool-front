@@ -1,8 +1,8 @@
 ---
 # slug: new-computer-literacy-course
-title: Qabul davom etmoqda
+title: Kmpyuter savodxonligi kurslariga qabul davom etmoqda!
 authors: axror
-tags: [kompyuter savodxonligi, boshlang'ich,word,excel,powerpoint]
+tags: [kompyuter savodxonligi, boshlang'ich,word,excel,powerpoint,facebook]
 ---
 
 #### Yangi `kompyuter savodxonligi` kursimizga qabul davom etmoqda
