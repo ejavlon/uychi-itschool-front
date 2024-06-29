@@ -1,8 +1,8 @@
 ---
 # slug: new-fronted-course
-title: Qabul davom etmoqda
+title: Frontend kurslarimizga qabul davom etmoqda
 authors: javlon
-tags: [fronted, html,css,sass,javaScript]
+tags: [frontend, html,css,sass,javaScript]
 ---
 
 #### Yangi **`fronted`** kursimizga qabul davom etmoqda
