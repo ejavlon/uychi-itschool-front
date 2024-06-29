@@ -14,7 +14,7 @@ tags: [fronted, html,css]
 **- Vaqt grafiklari:**
 
   | Mentor | Boshlanish vaqti | Tugash vaqti |
-  | :-: | ---------------- | ------------ |
+  |:-:|---|---|
   | Axrorbek | 09-00 | 11-00 |
   | Axrorbek | 14-00 | 16-00 |
   | Rahmatilla | 09-00 | 11-00 |
