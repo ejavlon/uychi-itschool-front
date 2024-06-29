@@ -1,6 +1,6 @@
 ---
 sidebar_position: 1
-tags: ['java version', 'oak','James Gosling',' Patrick Naughton','Chris Warth','Ed Frank']
+tags: ['Java', 'OAK','James Gosling',' Patrick Naughton','Chris Warth','Ed Frank']
 date: 12-12-2024
 ---
 # Kirish
