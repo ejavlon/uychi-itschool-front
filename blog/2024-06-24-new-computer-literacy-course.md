@@ -6,7 +6,7 @@ authors:
   title: Software Engineer
   url: https://github.com/ejavlon
   image_url: https://github.com/ejavlon.png
-tags: [fronted, html,css]
+tags: [kompyuter savodxonligi, boshlang'ich,word,excel,powerpoint]
 ---
 
 #### Yangi `kompyuter savodxonligi` kursimizga qabul davom etmoqda

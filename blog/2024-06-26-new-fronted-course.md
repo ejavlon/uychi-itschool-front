@@ -16,7 +16,7 @@ tags: [fronted, html,css]
   | Mentor | Boshlanish vaqti | Tugash vaqti |
   | :----: | :---: | :----------------------: |
   | Anazbek | 09-00 | 11-00 |
-  | Anazbek | 14-00 | 16-00 |\  
+  | Anazbek | 14-00 | 16-00 |
 
 :::danger Shoshiling
 Qabul damom etmoqda !
