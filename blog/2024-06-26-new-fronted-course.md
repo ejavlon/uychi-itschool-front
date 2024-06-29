@@ -1,12 +1,8 @@
 ---
 # slug: new-fronted-course
 title: Qabul davom etmoqda
-authors:
-  name: Javlon Ergashev
-  title: Software Engineer
-  url: https://github.com/ejavlon
-  image_url: https://github.com/ejavlon.png
-tags: [fronted, html,css]
+authors: javlon
+tags: [fronted, html,css,javaScript]
 ---
 
 #### Yangi **`fronted`** kursimizga qabul davom etmoqda

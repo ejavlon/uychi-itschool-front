@@ -1,11 +1,7 @@
 ---
 # slug: new-computer-literacy-course
 title: Qabul davom etmoqda
-authors:
-  name: Javlon Ergashev
-  title: Software Engineer
-  url: https://github.com/ejavlon
-  image_url: https://github.com/ejavlon.png
+authors: axror
 tags: [kompyuter savodxonligi, boshlang'ich,word,excel,powerpoint]
 ---
 
