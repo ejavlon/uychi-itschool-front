@@ -28,13 +28,18 @@ frontend:
   permalink: /frontend
   description: Frontend kalit so'ziga doir barcha postlar
 
+html:
+  label: HTML
+  permalink: /html
+  description: HTML kalit so'ziga doir barcha postlar
+
 css:
   label: CSS
   permalink: /css
   description: CSS kalit so'ziga doir barcha postlar
 
 sass:
-  label: Sass
+  label: SASS
   permalink: /sass
   description: Sass kalit so'ziga doir barcha postlar
 
