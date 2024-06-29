@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Java'da sizning birinchi dasturingiz
+# Java'da birinchi dasturingizni yarating
 
 Xech qanday qo'shimcha dastur va `IDEA'larisiz` birinchi dasturingizni yarating!
 
