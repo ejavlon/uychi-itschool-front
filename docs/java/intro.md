@@ -4,7 +4,7 @@ tags: ['java version', 'oak','James Gosling',' Patrick Naughton','Chris Warth','
 date: 12-12-2024
 ---
 # Kirish
-Java dasturlash tili 1991-yilda James Gosling, Patrick Naughton, Chris Warth, Ed Frank va Mike Sheridanlar tomonidan Sun Microsystems kompaniyasida yaratilgan. Tilning birinchi versiyasini yaratish uchun 18 oy vaqt ketgan. Bu til boshida `Oak` (eman) deb nomlangan edi, lekin keyinchalik 1995-yilda „Java“ ga oʻzgartiligan. `Oak` ning 1992-yilning kuz oylaridagi birinchi tadbiq etilishi va 1995-yilning bahorida „Java“ ning ommaga eʼlon qilinishidagi vaqt oraligʻida koʻplab odamlar bu tilning dizayni va evolyutsiyasiga oʻz hissalarini qoʻshishgan. Bil Joy, Arthur van Hoff, Jonathan Payne, Frakn Yellin va Tim Lindhom javaning asl prototipiga asosiy hissa qoʻshuvchilar hisoblanadi.
+Java dasturlash tili 1991-yilda `James Gosling`, `Patrick Naughton`, `Chris Warth`, `Ed Frank` va `Mike` Sheridanlar tomonidan `Sun Microsystems` kompaniyasida yaratilgan. Tilning birinchi versiyasini yaratish uchun 18 oy vaqt ketgan. Bu til boshida `Oak` (eman) deb nomlangan edi, lekin keyinchalik 1995-yilda `Java` ga oʻzgartiligan. `Oak` ning 1992-yilning kuz oylaridagi birinchi tadbiq etilishi va 1995-yilning bahorida `Java` ning ommaga eʼlon qilinishidagi vaqt oraligʻida koʻplab odamlar bu tilning dizayni va evolyutsiyasiga oʻz hissalarini qoʻshishgan. `Bil Joy`, `Arthur van Hoff`, `Jonathan Payne`, `Frakn Yellin` va `Tim Lindhom` javaning asl prototipiga asosiy hissa qoʻshuvchilar hisoblanadi.
 
 ## Nega `OAK` deb nomlangan
 
@@ -12,7 +12,7 @@ Aslida `Oak` bu daraxtning nomi hisoblanadi. Nimaga Oak? Chunki Oak kuch va qudr
 
 ## Java dasturlash tili relizlari
 
-JDK 1.0 1996-yil 23-yanvarda chiqarildi. Javaning birinchi versiyasidan soʻng tilga koʻplab qoʻshimcha funktsiyalar qoʻshildi. Endi Java Windows ilovalari, veb-ilovalar, korporativ ilovalar, mobil ilovalar, kartalar va hokazolarda qoʻllanilmoqda. Har bir yangi versiya Javaga yangi xususiyatlarni qoʻshadi. Hozirgacha koʻplab java versiyalari chiqarilgan. Javaning hozirgi barqaror versiyasi — Java SE 17.Hozirda, 2022-yil 21-may holatiga koʻra, Java 8, 11 and 17 javaning barqaroq versiyalari, yaʼni doimiy ravishda qoʻllab quvvatlanadigan versiyalar sifatida qaraladi.Javaning asosiy relizlari, ularni chiqarilgan vaqti bilan keltirilgan:
+`JDK 1.0` 1996-yil 23-yanvarda chiqarildi. Javaning birinchi versiyasidan soʻng tilga koʻplab qoʻshimcha funktsiyalar qoʻshildi. Endi Java Windows ilovalari, veb-ilovalar, korporativ ilovalar, mobil ilovalar, kartalar va hokazolarda qoʻllanilmoqda. Har bir yangi versiya Javaga yangi xususiyatlarni qoʻshadi. Hozirgacha koʻplab java versiyalari chiqarilgan. Javaning hozirgi barqaror versiyasi — Java SE 17.Hozirda, 2022-yil 21-may holatiga koʻra, Java 8, 11 and 17 javaning barqaroq versiyalari, yaʼni doimiy ravishda qoʻllab quvvatlanadigan versiyalar sifatida qaraladi.Javaning asosiy relizlari, ularni chiqarilgan vaqti bilan keltirilgan:
 
 | Versiyasi | Sanasi | 
 | -------- | -------- |
