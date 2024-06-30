@@ -1,8 +1,7 @@
 import Layout from '@theme/Layout';
 import HomepageFeatures from '../components/HomepageFeatures';
-import { memo } from 'react';
 
-function Home() {  
+export default function Home() {  
   return (
     <Layout            
       description="Zamoviy kasblarni biz bilan birga o'rganing!">      
@@ -12,5 +11,3 @@ function Home() {
     </Layout>
   );
 }
-
-export default memo(Home);
