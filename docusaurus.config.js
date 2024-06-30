@@ -4,13 +4,13 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: 'UYCHI IT SCHOOL',
   tagline: 'Zamonaviy kasblarni biz bilan birga o\'rganing',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/favicon2.ico',
 
   url: 'https://uychi-itschool.uz',
   
   baseUrl: '/',
   
-  organizationName: 'ejavlon.uz', 
+  organizationName: 'UYCHI IT SCHOOL', 
   projectName: 'uychi-itschool',
 
   onBrokenLinks: 'throw',
