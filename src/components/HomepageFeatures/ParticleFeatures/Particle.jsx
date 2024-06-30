@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { memo, useEffect } from 'react';
 // import './style.module.css'
 // import '../../../../static/particles.min.js'
 
@@ -144,4 +144,4 @@ const Particle = () => {
   );
 };
 
-export default Particle;
+export default memo(Particle);
