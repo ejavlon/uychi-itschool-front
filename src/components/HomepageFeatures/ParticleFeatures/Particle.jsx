@@ -1,6 +1,4 @@
 import React, { memo, useEffect } from 'react';
-// import './style.module.css'
-// import '../../../../static/particles.min.js'
 
 const Particle = () => {
 
@@ -137,9 +135,6 @@ const Particle = () => {
 
   return (
     <div id="particles-js" style={{  width: '100%', height: '100vh', backgroundColor: '#242526' }}>
-      {/* <div style={{position: 'absolute', display:'flex', height:'100vh', width: '100%', flexDirection: 'column', alignItems:'center', justifyContent :'center'}}>
-         <h1>UYCHI IT SCHOOL</h1>
-      </div>       */}
     </div>
   );
 };
