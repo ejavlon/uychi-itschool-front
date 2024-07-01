@@ -47,14 +47,16 @@ const config = {
         docs: {          
           sidebarPath: './sidebars.js',      
           showLastUpdateAuthor: true,
-          editUrl:
-            'https://github.com/ejavlon/uychi-itschool/docs',
+          showLastUpdateTime: true,
+          // editUrl:
+          //   'https://github.com/ejavlon/uychi-itschool/docs',
         },            
         blog: {
           showReadingTime: true,
           showLastUpdateAuthor: true,        
-          editUrl:
-            'https://github.com/ejavlon/uychi-itschool/blog',
+          showLastUpdateTime: true,
+          // editUrl:
+          //   'https://github.com/ejavlon/uychi-itschool/blog',
         },
         theme: {
           customCss: './src/css/custom.css',
