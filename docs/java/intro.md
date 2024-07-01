@@ -38,4 +38,4 @@ Aslida `Oak` bu daraxtning nomi hisoblanadi. Nimaga Oak? Chunki Oak kuch va qudr
 |Java SE 17 (LTS) |	Sentabr 14, 2021 |
 |Java SE 18	| Mart 22, 2022 |
 
-**Manba:** **[Wikipedia](https://uz.wikipedia.org/wiki/Java_dasturlash_tili_tarixi)**
+**Manba:** **[Wikipedia](https://uz.wikipedia.org/)**
