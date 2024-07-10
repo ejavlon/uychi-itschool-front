@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 author: Javlon Ergashev
-tags: ['Java', 'OAK','James Gosling',' Patrick Naughton','Chris Warth','Ed Frank']
+tags: ['Java','Sun Microsystems','Oracle', 'OAK','James Gosling',' Patrick Naughton','Chris Warth','Ed Frank']
 date: 30-06-2024
 ---
 # Kirish
@@ -11,12 +11,39 @@ Java dasturlash tili 1991-yilda `James Gosling`, `Patrick Naughton`, `Chris Wart
 
 Aslida `Oak` bu daraxtning nomi hisoblanadi. Nimaga Oak? Chunki Oak kuch va qudrat ramzi hisoblangan va bir nechta AQSH, Fransiya, Germaniya, Ruminiya kabi mamlakatklarning milliy daraxti sifatida tanlangan. Lekin, bu nom Oak Technologies deb nomlanuvchi kompaniyaning savdo belgisi ekanligi aniqlangandan soʻng, tilning nomi `Java` ga oʻzgartirilgan.
 
+## Oracle
+2010-yilda Oracle Sun Microsystems kompaniyasini sotib oldi `Java` Oracle egaligi ostiga olindi va horzigi vaqt (2024 yil 10 - iyul) qadar Oracle'ga tegishli.
+Java'ni saqlash,rivojlantrish, yangilanishlar chiqarish, xafsizlikni ta'minlash va yangilanishlar chiqarish Oracle tomonidan amalga oshiriladi.
+Xozirda Java Oracle kompaniyasiga tegishli va 3 milliarddan ortiq qurilmalar Java bilan ishlaydi.
+
+## Qurilmalar
+Java quyidagi qurilmalarda ishlatiladi:
+    - Mobil ilovalar (ayniqsa Android ilovalari)
+    - Ish stoli ilovalari
+    - Veb ilovalar
+    - Veb-serverlar va dastur serverlari
+    - O'yinlar
+    - Ma'lumotlar bazasiga ulanish
+    - Va juda - juda ko'p qurilmalarda!
+
+## Nima uchun Java-dan foydalanish kerak?
+    - Java turli platformalarda ishlaydi (Windows, Mac, Linux, Raspberry Pi va boshqalar).
+    - Bu dunyodagi eng mashhur dasturlash tillaridan biridir
+    - U hozirgi mehnat bozorida katta talabga ega
+    - O'rganish oson va foydalanish oson
+    - Bu ochiq manba va bepul
+    - Bu xavfsiz, tez va kuchli
+    - U katta jamoat yordamiga ega (o'n million ishlab chiquvchilar)
+    - Java - bu ob'ektga yo'naltirilgan til bo'lib, u dasturlarga aniq tuzilma beradi va kodni qayta ishlatishga imkon beradi, ishlab chiqish xarajatlarini kamaytiradi.
+    - Java C++ va C# tillariga yaqin boʻlgani uchun dasturchilar uchun Java tiliga yoki aksincha oʻtishni osonlashtiradi.
+
+
 ## Java dasturlash tili relizlari
 
 `JDK 1.0` 1996-yil 23-yanvarda chiqarildi. Javaning birinchi versiyasidan soʻng tilga koʻplab qoʻshimcha funktsiyalar qoʻshildi. Endi Java Windows ilovalari, veb-ilovalar, korporativ ilovalar, mobil ilovalar, kartalar va hokazolarda qoʻllanilmoqda. Har bir yangi versiya Javaga yangi xususiyatlarni qoʻshadi. Hozirgacha koʻplab java versiyalari chiqarilgan. Javaning hozirgi barqaror versiyasi — Java SE 17.Hozirda, 2022-yil 21-may holatiga koʻra, Java 8, 11 and 17 javaning barqaroq versiyalari, yaʼni doimiy ravishda qoʻllab quvvatlanadigan versiyalar sifatida qaraladi.Javaning asosiy relizlari, ularni chiqarilgan vaqti bilan keltirilgan:
 
 | Versiyasi | Sanasi | 
-| -------- | -------- |
+| :-------: | :----: |
 |JDK Beta |	1995 |
 |JDK 1.0	| Yanvar 23, 1996 |
 |JDK 1.1	| Fevral 19, 1997 |
