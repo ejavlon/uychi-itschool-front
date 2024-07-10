@@ -40,7 +40,7 @@ Java quyidagi qurilmalarda ishlatiladi:
 
 ## Java dasturlash tili relizlari
 
-`JDK 1.0` 1996-yil 23-yanvarda chiqarildi. Javaning birinchi versiyasidan soʻng tilga koʻplab qoʻshimcha funktsiyalar qoʻshildi. Endi Java Windows ilovalari, veb-ilovalar, korporativ ilovalar, mobil ilovalar, kartalar va hokazolarda qoʻllanilmoqda. Har bir yangi versiya Javaga yangi xususiyatlarni qoʻshadi. Hozirgacha koʻplab java versiyalari chiqarilgan. Javaning hozirgi barqaror versiyasi — Java SE 17.Hozirda, 2022-yil 21-may holatiga koʻra, Java 8, 11 and 17 javaning barqaroq versiyalari, yaʼni doimiy ravishda qoʻllab quvvatlanadigan versiyalar sifatida qaraladi.Javaning asosiy relizlari, ularni chiqarilgan vaqti bilan keltirilgan:
+Javaning hozirgi barqaror versiyasi — Java SE 22.Hozirda, 2024-yil 10-iyul holatiga koʻra, Java 8, 11,17, 21 javaning barqaroq versiyalari, yaʼni doimiy ravishda qo'llab quvvatlanadigan versiyalar sifatida qaraladi.Javaning asosiy relizlari, ularni chiqarilgan vaqti bilan keltirilgan:
 
 | Versiyasi | Sanasi | 
 | :-------: | :----: |
