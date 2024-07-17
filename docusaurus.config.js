@@ -23,6 +23,7 @@ const config = {
       en: {
         htmlLang: 'en',
       },
+    },
   },
 
   plugins: [
