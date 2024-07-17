@@ -8,7 +8,7 @@ const config = {
 
   url: 'https://uychi-itschool.uz',
   
-  baseUrl: '/',
+  baseUrl: '/',  
   
   organizationName: 'UYCHI IT SCHOOL', 
   projectName: 'uychi-itschool',
@@ -21,7 +21,7 @@ const config = {
     locales: ['en'],
     localeConfigs: {
       en: {
-        htmlLang: 'en-GB',
+        htmlLang: 'en',
       },
   },
 
