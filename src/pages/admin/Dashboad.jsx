@@ -1,8 +1,7 @@
 import * as React from 'react';
-import { styled, createTheme, ThemeProvider } from '@mui/material/styles';
+import { styled} from '@mui/material/styles';
 import MuiDrawer from '@mui/material/Drawer';
 import Box from '@mui/material/Box';
-import MuiAppBar from '@mui/material/AppBar';
 import Toolbar from '@mui/material/Toolbar';
 import List from '@mui/material/List';
 import Divider from '@mui/material/Divider';
@@ -17,12 +16,13 @@ const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' 
     '& .MuiDrawer-paper': {
       position: 'relative',
       whiteSpace: 'nowrap',
-      backgroundColor:  'black',
+      backgroundColor: 'var(--ifm-navbar-background-color)',
       width: 250,
       transition: theme.transitions.create('width', {
         easing: theme.transitions.easing.sharp,
         duration: theme.transitions.duration.enteringScreen,
       }),
+      zIndex:100,
       boxSizing: 'border-box',
       ...(!open && {
         overflowX: 'hidden',
@@ -46,7 +46,7 @@ export default function Dashboard() {
   };
 
   return (
-   <Layout>
+   <Layout>      
       <Box sx={{ display: 'flex' }}>        
         <Drawer variant="permanent" open={open}>
           <Toolbar
@@ -58,7 +58,7 @@ export default function Dashboard() {
             }}
           >
             <IconButton onClick={toggleDrawer}>
-              <ChevronLeftIcon />
+              <ChevronLeftIcon sx={{color:'var(--ifm-navbar-link-color)',}}/>
             </IconButton>
           </Toolbar>
           <Divider />
@@ -82,7 +82,6 @@ export default function Dashboard() {
         >
           <Toolbar />
           <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
-            
           </Container>
         </Box>
       </Box>

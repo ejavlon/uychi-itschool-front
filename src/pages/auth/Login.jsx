@@ -48,7 +48,8 @@ export default function Login() {
       return;
     }
 
-    setLoading(true)
+    setLoading(true);
+  
 
   }
 
