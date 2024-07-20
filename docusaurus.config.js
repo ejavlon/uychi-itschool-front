@@ -26,7 +26,7 @@ const config = {
       {
         languages: ['en'],
         indexBaseUrl : true, // index base url
-        excludeRoutes : ["/ignore-endpoints"], // ignore endpoints
+        // excludeRoutes : ["/ignore-endpoints"], // ignore endpoints
         // includeRoutes : ["/"] //Include only specific routes for search
         stopWords : [],// Add stop words(words that are exclude from search result) to the search index
         excludeTags : [],//Exclude certain tags from the search
@@ -134,12 +134,12 @@ const config = {
           // },                  
           {to: '/blog', label: 'Blog', position: 'right'},          
           // {
-          //   href: 'https://github.com/ejavlon',
+          //   href: 'https://github.com/',
           //   label: 'GitHub',
           //   position: 'right',
           // },
           // {
-          //   href: 'https://youtube.com/ejavlon',
+          //   href: 'https://youtube.com/',
           //   label: 'YouTube',
           //   position: 'right',
           // },
@@ -147,8 +147,7 @@ const config = {
             href: 'https://t.me/',
             label: 'Telegram',
             position: 'right',
-          },
-          {to: '/auth/login', label: 'Kirish', position: 'right'},
+          },          
         ],
       },
       
