@@ -2,7 +2,7 @@ import React, { memo } from 'react'
 import MuiDrawer from '@mui/material/Drawer';
 import { styled} from '@mui/material/styles';
 
-function Drawer({variant,open}) {    
+function MyDrawer({variant,open}) {    
   return (
     styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' })(
         ({ theme, open }) => ({
@@ -34,4 +34,4 @@ function Drawer({variant,open}) {
   );
 }
 
-export default memo(Drawer);
+export default memo(MyDrawer);
