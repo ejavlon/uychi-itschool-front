@@ -8,29 +8,23 @@ const config = {
 
   url: 'https://uychi-itschool.uz',
   
-  baseUrl: '/',  
+  baseUrl: '/',
   
   organizationName: 'UYCHI IT SCHOOL', 
   projectName: 'uychi-itschool',
-
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
     defaultLocale: 'en',
     locales: ['en'],
-    localeConfigs: {
-      en: {
-        htmlLang: 'en',
-      },
-    },
   },
 
   plugins: [
     [
       require.resolve('docusaurus-lunr-search'),
       {
-        languages: ['en', 'ru'],
+        languages: ['en'],
         indexBaseUrl : true, // index base url
         excludeRoutes : ["/ignore-endpoints"], // ignore endpoints
         // includeRoutes : ["/"] //Include only specific routes for search
@@ -153,8 +147,7 @@ const config = {
             href: 'https://t.me/',
             label: 'Telegram',
             position: 'right',
-          },    
-          {to: '/auth/login', label: 'Kirish', position: 'right'},      
+          },          
         ],
       },
       
