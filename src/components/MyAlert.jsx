@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React, { memo } from 'react'
 import Stack from '@mui/material/Stack';
 import Snackbar from '@mui/material/Snackbar';
 import MuiAlert from '@mui/material/Alert';
@@ -7,7 +7,7 @@ const Alert = React.forwardRef(function Alert(props, ref) {
     return <MuiAlert elevation={6} ref={ref} variant="filled" {...props} />;
 });
 
-export default function MyAlert({open,setOpen,message,status}) {    
+function MyAlert({open,setOpen,message,status}) {    
     // status type : success, info, warning, error
     const handleClose = (event, reason) => {
         if (reason === 'clickaway')return
@@ -24,3 +24,5 @@ export default function MyAlert({open,setOpen,message,status}) {
     </Stack>  
   )
 }
+
+export default memo(MyAlert);

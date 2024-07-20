@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { memo } from 'react'
 import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import TextField from '@mui/material/TextField';
@@ -13,7 +13,7 @@ import MyAlert from '../../components/MyAlert';
 import LoadingButton from '@mui/lab/LoadingButton';
 import LoginIcon from '@mui/icons-material/Login';
 
-export default function Login() {
+function Login() {
 
   //checkbox
   const [save, setSave] = React.useState(false);
@@ -125,3 +125,5 @@ export default function Login() {
     </Layout>
   );
 }
+
+export default memo(Login);
