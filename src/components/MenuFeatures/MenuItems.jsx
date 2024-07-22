@@ -61,7 +61,7 @@ export default function MenuItems({setCurrentPage}) {
                 <ListItemIcon sx={{color:'var(--ifm-navbar-link-color)',}}>
                 <CardMembershipIcon />
                 </ListItemIcon>
-                <ListItemText primary="Sertifikat yaratish" />
+                {/* <ListItemText primary="Sertifikat yaratish" /> */}
             </ListItemButton>
             <ListItemButton>
                 <ListItemIcon sx={{color:'var(--ifm-navbar-link-color)',}}>
