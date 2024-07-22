@@ -10,7 +10,7 @@ import DeleteOutlineOutlinedIcon from '@mui/icons-material/DeleteOutlineOutlined
 import { Chip, IconButton, Tooltip } from '@mui/material';
 
 
-export default function MyCard() {
+export default function MyCard({setOpen}) {
   return (
     <Card sx={{ maxWidth: 275, margin: 2,backgroundColor: 'var(--ifm-navbar-background-color)', color:'var(--ifm-navbar-link-color)' }}>
       <CardContent>
@@ -31,9 +31,7 @@ export default function MyCard() {
         </Typography>
       </CardContent>
       <CardActions sx={{display:'flex', justifyContent:'space-between'}}>        
-        <Tooltip title="Guruhni yangi oynada ochish" followCursor>
-          <Button size="small">Ochish</Button>
-        </Tooltip>
+        <Button size="small" onClick={()=>setOpen(true)}>Ochish</Button>
         <Tooltip title="Guruhni o'chirish" followCursor>
           <IconButton>
             <DeleteOutlineOutlinedIcon color='error'/>

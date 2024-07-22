@@ -15,7 +15,7 @@ function MyAlert({open,setOpen,message,status}) {
     };
         
   return (
-    <Stack spacing={2} sx={{ width: '100%' }}>       
+    <Stack spacing={2} sx={{ width: '100%', display:'flex',  }}>       
         <Snackbar open={open} autoHideDuration={1500} onClose={handleClose}>
         <Alert onClose={handleClose} severity={status} sx={{ width: '100%' }}>
             {message}
