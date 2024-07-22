@@ -1,10 +1,26 @@
 import React from 'react'
 import MyCard from './MyCard'
+import { Box } from '@mui/material'
 
 export default function Groups() {
   return (
-    <div>
+    <Box component='div' sx={{display:'flex', flexWrap:'wrap'}}>
       <MyCard/>
-    </div>
+      <MyCard/>
+      <MyCard/>
+      <MyCard/>            
+      <MyCard/>
+      <MyCard/> 
+      <MyCard/>
+      <MyCard/>
+      <MyCard/>
+      <MyCard/>
+      <MyCard/>
+      <MyCard/>
+      <MyCard/>
+      <MyCard/>
+      <MyCard/>
+      <MyCard/>
+    </Box>
   )
 }

@@ -11,29 +11,36 @@ import CardMembershipIcon from '@mui/icons-material/CardMembership';
 import MailOutlineIcon from '@mui/icons-material/MailOutline';
 import SchoolIcon from '@mui/icons-material/School';
 import Box from '@mui/material/Box';
-export default function MenuItems() {
+
+
+export default function MenuItems({setCurrentPage}) {
+
+    const menuItemBtnClick = (page) => {
+        console.log(page);
+        setCurrentPage(page);
+    }
   return (
     <React.Fragment>
         <Box component='div' sx={{color:'var(--ifm-navbar-link-color)',}}>
-            <ListItemButton>
+            <ListItemButton onClick={() => menuItemBtnClick("groups")}>
                 <ListItemIcon sx={{color:'var(--ifm-navbar-link-color)',}}>
                 <GroupsIcon />
                 </ListItemIcon>
                 <ListItemText primary="Guruhlar"/>
             </ListItemButton>
-            <ListItemButton >
+            <ListItemButton onClick={() => menuItemBtnClick("stundets")}>
                 <ListItemIcon sx={{color:'var(--ifm-navbar-link-color)',}}>
                 <SchoolIcon />
                 </ListItemIcon>
                 <ListItemText primary="O'quvchilar" />
             </ListItemButton>
-            <ListItemButton>
+            <ListItemButton onClick={() => menuItemBtnClick("newStudents")}>
                 <ListItemIcon sx={{color:'var(--ifm-navbar-link-color)',}}>
                 <NewReleasesIcon />
                 </ListItemIcon>
                 <ListItemText primary="Kursga yozilganlar" />
             </ListItemButton>
-            <ListItemButton>
+            <ListItemButton onClick={() => menuItemBtnClick("appeals")}>
                 <ListItemIcon sx={{color:'var(--ifm-navbar-link-color)',}}>
                 <MessageIcon />
                 </ListItemIcon>

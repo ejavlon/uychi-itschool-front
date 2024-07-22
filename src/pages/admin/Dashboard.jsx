@@ -10,12 +10,22 @@ import Layout from '@theme/Layout';
 import MuiDrawer from '@mui/material/Drawer';
 import { styled} from '@mui/material/styles';
 import MenuItems from '../../components/MenuFeatures/MenuItems';
+import Groups from '../../components/GroupsFeatures/Groups';
+import Students from '../../components/StudentsFeatures/Students';
+import NewStudents from '../../components/NewStudentsFeatures/NewStudents';
+import Appeals from '../../components/AppealsFeatures/Appeals';
 
 export default function Dashboard() {
   const [open, setOpen] = React.useState(true);
+  const [currentPage, setCurrentPage] = React.useState("groups")
+
   const toggleDrawer = () => {
     setOpen(!open);
   };
+
+  React.useEffect(() => {
+    
+  },[currentPage])
 
   const Drawer = styled(MuiDrawer, { shouldForwardProp: (prop) => prop !== 'open' })(
     ({ theme, open }) => ({
@@ -54,16 +64,16 @@ export default function Dashboard() {
               display: 'flex',
               alignItems: 'center',
               justifyContent: 'flex-end',
-              px: [1],
+              px: [1],           
             }}
-          >
+          >            
             <IconButton onClick={toggleDrawer}>
               <ChevronLeftIcon sx={{color:'var(--ifm-navbar-link-color)',}}/>
             </IconButton>
           </Toolbar>
           <Divider />
           <List component="nav">
-            <MenuItems/>
+            <MenuItems setCurrentPage={setCurrentPage}/>
             <Divider sx={{ my: 1 }} />            
           </List>
         </Drawer>
@@ -77,6 +87,12 @@ export default function Dashboard() {
         >
           <Toolbar />
           <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+            {
+              currentPage === "groups" ? <Groups/> : 
+              currentPage === "stundets" ? <Students/> :
+              currentPage === "newStudents" ? <NewStudents/> :
+              currentPage === "appeals" ? <Appeals/> : ""
+            }
           </Container>
         </Box>
       </Box>
