@@ -6,15 +6,16 @@ import CardContent from '@mui/material/CardContent';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
 import FiberNewOutlinedIcon from '@mui/icons-material/FiberNewOutlined';
-import { Chip } from '@mui/material';
+import DeleteOutlineOutlinedIcon from '@mui/icons-material/DeleteOutlineOutlined';
+import { Chip, IconButton, Tooltip } from '@mui/material';
 
 
-export default function MyCard() {
+export default function MyCard({setOpen}) {
   return (
     <Card sx={{ maxWidth: 275, margin: 2,backgroundColor: 'var(--ifm-navbar-background-color)', color:'var(--ifm-navbar-link-color)' }}>
       <CardContent>
         <Box component='div' sx={{display:'flex', justifyContent:'space-between'}}>
-          <Typography sx={{ fontSize: 14 }} color="text.secondary" gutterBottom>
+          <Typography sx={{ fontSize: 14 }} color="primary" gutterBottom>
             Guruh : K12
           </Typography>
           <Chip label="new" color="success" variant="outlined" />
@@ -29,8 +30,13 @@ export default function MyCard() {
           Yig'ildi: 7 ta
         </Typography>
       </CardContent>
-      <CardActions>
-        <Button size="small">Ochish</Button>
+      <CardActions sx={{display:'flex', justifyContent:'space-between'}}>        
+        <Button size="small" onClick={()=>setOpen(true)}>Ochish</Button>
+        <Tooltip title="Guruhni o'chirish" followCursor>
+          <IconButton>
+            <DeleteOutlineOutlinedIcon color='error'/>
+          </IconButton>
+        </Tooltip>
       </CardActions>
     </Card>
   );
