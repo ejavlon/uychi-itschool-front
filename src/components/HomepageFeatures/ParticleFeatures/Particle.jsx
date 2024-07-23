@@ -1,3 +1,4 @@
+import { Box } from '@mui/material';
 import React, { memo, useEffect } from 'react';
 
 const Particle = () => {
@@ -134,8 +135,8 @@ const Particle = () => {
   }, []); 
 
   return (
-    <div id="particles-js" style={{  width: '100%', height: '100vh', backgroundColor: '#242526' }}>
-    </div>
+    <Box component='div' id="particles-js" sx={{width: '100%', height: '100vh', backgroundColor: '#242526'}}>
+    </Box>
   );
 };
 
