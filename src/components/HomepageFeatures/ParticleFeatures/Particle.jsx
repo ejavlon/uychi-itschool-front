@@ -1,7 +1,7 @@
 import { Box } from '@mui/material';
-import React, { memo, useEffect } from 'react';
+import React, { useEffect } from 'react';
 
-const Particle = () => {
+export default Particle = () => {
 
   useEffect(() => {    
     const loadParticlesJS = async () => {
@@ -139,5 +139,3 @@ const Particle = () => {
     </Box>
   );
 };
-
-export default memo(Particle);
