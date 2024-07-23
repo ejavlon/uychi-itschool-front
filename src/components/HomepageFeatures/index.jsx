@@ -1,4 +1,4 @@
-import React, { useEffect, useMemo } from 'react';
+import React, { useEffect } from 'react';
 import Particle from './ParticleFeatures/Particle';
 
 export default function HomepageFeatures() {
@@ -21,11 +21,9 @@ export default function HomepageFeatures() {
     };
   }, []);
 
-  const memoizedParticle = useMemo(() => <Particle />, []);
-
   return (
     <React.Fragment>
-      {memoizedParticle}
+      <Particle />
     </React.Fragment>
   );
 }
