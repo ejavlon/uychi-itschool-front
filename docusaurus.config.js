@@ -40,8 +40,7 @@ const config = {
 
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
+      'classic',      
       ({
         docs: {          
           sidebarPath: './sidebars.js',      
@@ -65,19 +64,42 @@ const config = {
     ],
   ],
 
-  themes: ['@docusaurus/theme-search-algolia'],
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  // plugins: [
+  //   [
+  //     '@docusaurus/theme-search-algolia',
+  //     {
+  //       // id: 'algolia', // 
+  //       appId: 'WY3BYWWAJS',
+  
+  //       // Public API key: it is safe to commit it
+  //       apiKey: 'f1b1d1ad30bef215050d400d3edd13ad',
+      
+  //       indexName: 'uychi-itschool-index',
+  //       contextualSearch: true, // Optional
+  //       searchParameters: {},   // Optional
+  //     },
+  //   ],
+  // ],
+
+  
+
+  // appId:"R2IYF7ETH7",
+  //       apiKey:"f1b1d1ad30bef215050d400d3edd13ad",
+  //       indexName:"docsearch",
+
+
+  // themes: ['@docusaurus/theme-search-algolia'],
+  themeConfig:    
     ({
 
       algolia: {
         // The application ID provided by Algolia
-        appId: 'H10BZU01XD',
+        appId: 'WY3BYWWAJS',
   
         // Public API key: it is safe to commit it
-        apiKey: '33464cda633d7cda8855044fc77780ee',
-  
-        indexName: 'algolia_index',
+        apiKey: 'f1b1d1ad30bef215050d400d3edd13ad',
+      
+        indexName: 'uychi-itschool-index',
   
         // Optional: see doc section below
         contextualSearch: true,
@@ -102,20 +124,7 @@ const config = {
   
         
       }, //endalgolia
-
-      plugins: [
-        [
-          '@docusaurus/theme-search-algolia',
-          {
-            id: 'algolia-search-23-07-2024', // 
-            apiKey: '33464cda633d7cda8855044fc77780ee',
-            indexName: 'algolia_index',
-            appId: 'H10BZU01XD',
-            contextualSearch: true, // Optional
-            searchParameters: {},   // Optional
-          },
-        ],
-      ],
+    
       
       colorMode:{
         defaultMode:'light',
@@ -144,9 +153,7 @@ const config = {
         },
         
         items: [              
-          {
-            // type: 'docSidebar',
-            // sidebarId: 'html',
+          {            
             type: 'dropdown',
             position: 'right',
             label: 'Academy',            
@@ -162,36 +169,8 @@ const config = {
               },
 
             ]
-          },     
-          // {
-          //   type: 'docSidebar',
-          //   position: 'left',
-          //   sidebarId: 'css',
-          //   label: 'CSS',
-          // },                 
-          // {
-          //   type: 'docSidebar',          
-          //   position: 'left',
-          //   sidebarId: 'javaScript',
-          //   label: 'JavaScript',
-          // },  
-          // {
-          //   type: 'docSidebar',
-          //   position: 'left',
-          //   sidebarId: 'java',
-          //   label: 'Java',
-          // },                  
-          {to: '/blog', label: 'Blog', position: 'right'},          
-          // {
-          //   href: 'https://github.com/',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
-          // {
-          //   href: 'https://youtube.com/',
-          //   label: 'YouTube',
-          //   position: 'right',
-          // },
+          },                        
+          {to: '/blog', label: 'Blog', position: 'right'},                    
           {
             href: 'https://t.me/',
             label: 'Telegram',
@@ -205,11 +184,7 @@ const config = {
         links: [
           {
             title: 'Kurslarimiz',
-            items: [
-              // {
-              //   label: 'Kompyuter savodxonligi',
-              //   to: '/docs/intro',
-              // },              
+            items: [                       
               {
                 label: 'Frontend Development',
                 to: '/docs/frontend/intro',
