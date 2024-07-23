@@ -7,8 +7,7 @@ export default function HomepageFeatures() {
       const script = document.createElement('script');
       script.src = './replain.js';
       script.onload = () => {
-        console.log('replain.js loaded');
-        initializeParticlesJS();
+        console.log('replain.js loaded');        
       };
       document.body.appendChild(script);
     };
