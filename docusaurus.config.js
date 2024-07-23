@@ -68,9 +68,17 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      
       colorMode:{
         defaultMode:'light',
       },
+      stylesheets: [
+        {
+          href: 'https://fonts.googleapis.com/css?family=Roboto:400,700',
+          type: 'text/css',
+        },
+        // Add more stylesheets if needed
+      ],
       // announcementBar: {
       //   id: 'support_us',
       //   content:
