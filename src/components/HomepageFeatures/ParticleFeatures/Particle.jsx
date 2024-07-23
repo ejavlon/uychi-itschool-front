@@ -8,12 +8,6 @@ const Particle = () => {
       script.src = './particles.min.js';
       script.onload = () => initializeParticlesJS();
       document.body.appendChild(script);
-
-
-      const script2 = document.createElement('script');      
-      script2.src = './replain.js';
-      script2.onload = () => initializeParticlesJS();
-      document.body.appendChild(script2);
     };
 
     const initializeParticlesJS = () => {
