@@ -4,16 +4,16 @@ import Particle from './ParticleFeatures/Particle';
 export default function HomepageFeatures() {
 
   
-  useEffect(() => {
-    const loadReplainJS = () => {      
-      const script = document.createElement('script');      
-      script.src = './replain.js';
-      script.onload = () => initializeParticlesJS();
-      document.body.appendChild(script);
-    };
+  // useEffect(() => {
+  //   const loadReplainJS = () => {      
+  //     const script = document.createElement('script');      
+  //     script.src = './replain.js';
+  //     script.onload = () => initializeParticlesJS();
+  //     document.body.appendChild(script);
+  //   };
 
-    loadReplainJS();
-  },[])
+  //   loadReplainJS();
+  // },[])
   return (
     <div >      
       <div>        
