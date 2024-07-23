@@ -97,7 +97,7 @@ const config = {
         appId: 'WY3BYWWAJS',
   
         // Public API key: it is safe to commit it
-        apiKey: 'f1b1d1ad30bef215050d400d3edd13ad',
+        apiKey: 'a4c5c47f80243340bf6593d432be5f98',
       
         indexName: 'uychi-itschool-index',
   
