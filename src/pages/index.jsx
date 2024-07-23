@@ -1,20 +1,7 @@
 import Layout from '@theme/Layout';
 import HomepageFeatures from '../components/HomepageFeatures';
-import { useEffect } from 'react';
-
 
 export default function Home() {  
-
-  useEffect(() => {
-    const loadReplainJS = () => {      
-      const script = document.createElement('script');      
-      script.src = './replain.js';
-      script.onload = () => initializeParticlesJS();
-      document.body.appendChild(script);
-    };
-
-    loadReplainJS();
-  },[])
   return (
     <Layout            
       description="Zamoviy kasblarni biz bilan birga o'rganing!">      
