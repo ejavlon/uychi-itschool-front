@@ -20,23 +20,23 @@ const config = {
     locales: ['en'],
   },
 
-  plugins: [
-    [
-      require.resolve('docusaurus-lunr-search'),
-      {
-        languages: ['en'],
-        indexBaseUrl : true, // index base url
-        // excludeRoutes : ["/ignore-endpoints"], // ignore endpoints
-        // includeRoutes : ["/"] //Include only specific routes for search
-        stopWords : [],// Add stop words(words that are exclude from search result) to the search index
-        excludeTags : [],//Exclude certain tags from the search
-        highlightResult : true, //Enable it to highlight the searched word in the result page. Used mark.js for highlighting. You can customize the highlight color using cssmark  { background-color: red !important; color: green !important }
-        disableVersioning : true, //Docs versions are displayed by default. If you want to hide it, set this plugin option to true
-        maxHits : 5 // Maximum number of hits shown
+  // plugins: [
+  //   [
+  //     require.resolve('docusaurus-lunr-search'),
+  //     {
+  //       languages: ['en'],
+  //       indexBaseUrl : true, // index base url
+  //       // excludeRoutes : ["/ignore-endpoints"], // ignore endpoints
+  //       // includeRoutes : ["/"] //Include only specific routes for search
+  //       stopWords : [],// Add stop words(words that are exclude from search result) to the search index
+  //       excludeTags : [],//Exclude certain tags from the search
+  //       highlightResult : true, //Enable it to highlight the searched word in the result page. Used mark.js for highlighting. You can customize the highlight color using cssmark  { background-color: red !important; color: green !important }
+  //       disableVersioning : true, //Docs versions are displayed by default. If you want to hide it, set this plugin option to true
+  //       maxHits : 5 // Maximum number of hits shown
         
-      }
-    ]
-  ],
+  //     }
+  //   ]
+  // ],
 
   presets: [
     [
@@ -65,20 +65,47 @@ const config = {
     ],
   ],
 
+  themes: ['@docusaurus/theme-search-algolia'],
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'H10BZU01XD',
+  
+        // Public API key: it is safe to commit it
+        apiKey: '33464cda633d7cda8855044fc77780ee',
+  
+        indexName: 'algolia_index',
+  
+        // Optional: see doc section below
+        contextualSearch: true,
+  
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: 'external\\.com|domain\\.com',
+  
+        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
+        replaceSearchResultPathname: {
+          from: '/docs/', // or as RegExp: /\/docs\//
+          to: '/',
+        },
+  
+        // Optional: Algolia search parameters
+        searchParameters: {},
+  
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: 'search',
+  
+        // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+        insights: false,
+  
+        
+      }, //endalgolia
       
       colorMode:{
         defaultMode:'light',
       },
-      stylesheets: [
-        {
-          href: 'https://fonts.googleapis.com/css?family=Roboto:400,700',
-          type: 'text/css',
-        },
-        // Add more stylesheets if needed
-      ],
       // announcementBar: {
       //   id: 'support_us',
       //   content:
