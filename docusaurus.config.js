@@ -64,34 +64,6 @@ const config = {
     ],
   ],
 
-  // plugins: [
-  //   [
-  //     '@docusaurus/theme-search-algolia',
-  //     {
-  //       // id: 'algolia', // 
-  //       appId: 'WY3BYWWAJS',
-  
-  //       // Public API key: it is safe to commit it
-  //       apiKey: 'f1b1d1ad30bef215050d400d3edd13ad',
-      
-  //       indexName: 'uychi-itschool-index',
-  //       contextualSearch: true, // Optional
-  //       searchParameters: {},   // Optional
-  //     },
-  //   ],
-  // ],
-
-
-
-  // appId: 'WY3BYWWAJS',
-  
-  // // Public API key: it is safe to commit it
-  // apiKey: 'a4c5c47f80243340bf6593d432be5f98',
-
-  // indexName: 'uychi-itschool-index',
-
-
-  // themes: ['@docusaurus/theme-search-algolia'],
   themeConfig:    
     ({
 
@@ -113,12 +85,11 @@ const config = {
   
         // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
         // externalUrlRegex: 'external\\.com|domain\\.com',
-  
-        // Optional: Replace parts of the item URLs from Algolia. Useful when using the same search index for multiple deployments using a different baseUrl. You can use regexp or string in the `from` param. For example: localhost:3000 vs myCompany.com/docs
-        replaceSearchResultPathname: {
-          from: '/docs/', // or as RegExp: /\/docs\//
-          to: '/',
-        },
+          
+        // replaceSearchResultPathname: {
+        //   from: '/docs/', // or as RegExp: /\/docs\//
+        //   to: '/',
+        // },
   
         // Optional: Algolia search parameters
         searchParameters: {},
