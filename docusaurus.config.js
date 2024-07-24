@@ -97,12 +97,16 @@ const config = {
 
       algolia: {
         // The application ID provided by Algolia
-        appId: 'WY3BYWWAJS',
+        appId: 'VSINCO19CA',
         
         // Public API key: it is safe to commit it
-        apiKey: 'a4c5c47f80243340bf6593d432be5f98',
+        apiKey: 'a6e02847c0f8d27ced2f6d470ad8381d',
 
-        indexName: 'uychi-itschool-index',
+        indexName: 'uychi-itschool',
+        
+        container: "### REPLACE ME WITH A CONTAINER (e.g. div) ###",
+
+        debug: false,
   
         // Optional: see doc section below
         contextualSearch: true,
@@ -120,7 +124,7 @@ const config = {
         searchParameters: {},
   
         // Optional: path for search page that enabled by default (`false` to disable it)
-        searchPagePath: 'search',
+        // searchPagePath: 'search',
   
         // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
         // insights: false,
