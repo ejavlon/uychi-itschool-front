@@ -49,7 +49,7 @@ Quyidagi misolda ikkinchi qatordagi gapni davom ettirish uchun teskari chiziq ``
 ```python
 if (a == True) and (b == False) and \
    (c == True):
-    print("Bayonotlarning davomi")
+    print("instruktsiyalarning davomi")
 ```
 
 ## Registrga sezuvchanlik
