@@ -1,7 +1,7 @@
 ---
 sidebar_position: 1
 author: Javlon Ergashev
-tags: ['Python']
+tags: ['Python','Grido Van Rossu']
 date: 25-07-2024
 ---
 
@@ -15,7 +15,7 @@ Ayniqsa Python dasturlash tilining tezlik bilan tarqalishiga uning
 mashinali o'rgatish va sun'iy intellekt sohalaridagi tadqiqot ishlarida keng
 qo'llanilishi sabab bo'lgan.
 
-Python dasturlash tiliga 1991 yil Golland dasturchisi Grido Van Rossu asos
+Python dasturlash tiliga 1991 yil Golland dasturchisi `Grido Van Rossu` asos
 solgan. Shundan beri ushbu til rivojlanishning ulkan yo'lini bosib o'tdi va 2000
 yilda 2.0 versiyasi, 2008 yil esa 3.0 versiyalari chiqarildi. Versiyalar orasidagi
 muddatning uzoqligiga qaramasdan doima versiya ostilari chiqariladi. Shunday

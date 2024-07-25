@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Python sintaksisi
 Python tilida dastur instruktsiyalar to'plamidan tashkil topgan bo'lib, har bir
-instruktsiya alohida qatorda joylashgan bo'lishi kerak bo‟ladi. Masalan:
+instruktsiya alohida qatorda joylashgan bo'lishi kerak bo'ladi. Masalan:
 
 ```python
 print(3 + 5)
@@ -20,10 +20,10 @@ print(3 + 5)
     print("Python – dasturlash tili!")
 ```
 
-Ushbu dastur kodi yuqoridagisi bilan bir xil bo‟lishiga qaramasdan
+Ushbu dastur kodi yuqoridagisi bilan bir xil bo'lishiga qaramasdan
 interpretator xatolik haqida xabar chiqaradi va dastur bajarilmaydi. Shuning uchun
 ham Pythonda har bir instruktsiya alohida qatorda yozilishi shart. Ushbu hususiyat
-Pythonning boshqa tillardan, masalan: ```Java```, ```C#``` tillaridan farqli jihatlaridan biri
+Pythonning boshqa tillardan, masalan: `Java`, `C#` tillaridan farqli jihatlaridan biri
 hisoblanadi.
 
 Shunga qaramasdan Python tilining ba`zi konstruktsiyalari bir necha
@@ -34,11 +34,11 @@ if 10 < 20:
 print("Shart bajarildi")
 ```
 
-Bu holatda 10 soni 20 sonidan kichik va "Shart bajarildi" so‟zi chiqariladi.
-print("Shart bajarildi") instruktsiyasi oldida albatta xat boshi bo‟lishi shart, chunki
+Bu holatda 10 soni 20 sonidan kichik va "Shart bajarildi" so'zi chiqariladi.
+print("Shart bajarildi") instruktsiyasi oldida albatta xat boshi bo'lishi shart, chunki
 u alohida o'zi ishlatilmagan balki if shart konstruktsiyasining qismi sifatida
-qo‟llanilgan. Odatda xat boshi 4 ga karrali probellar soni (4, 8,12) bilan yozish
-kelishilgan, lekin probellar soni 5 va undan ortiq bo‟lsa ham dastur ishlaydi.
+qo'llanilgan. Odatda xat boshi 4 ga karrali probellar soni (4, 8,12) bilan yozish
+kelishilgan, lekin probellar soni 5 va undan ortiq bo'lsa ham dastur ishlaydi.
 
 ## Instruktsiyalarning davomi
 
@@ -64,7 +64,7 @@ nima ish qilishini qayd qilib ketish uchun izohlardan foydalaniladi. Interpretat
 baytkodga tarjima qilayotganda yoki bajarayotganda izohlarni  e'tiborsiz
 qoldiradi. Shuning uchun izohga olingan berilganlar dastur ishlashiga hech qanday ta'sir ko'rsatmaydi.
 
-Python dasturlash tilida izoh qo‟yish uchun ```#``` belgisidan foydalaniladi.
+Python dasturlash tilida izoh qo'yish uchun ```#``` belgisidan foydalaniladi.
 Odatda izohlar blokli va satrli izohlarga ajratiladi. Lekin har ikkalasi ham ```#```
 belgisi orqali hosil qilinadi. Farqi satr izohlar dastur kodi yozilgan qatorda koddan
 keyin yoziladi va u shu satr nima ish bajarishi to'g'risidagi ma'lumotlardan tashkil
@@ -115,7 +115,7 @@ print(keyword.kwlist)
 ## Asosiy funksiyalar
 Python o'z ichiga bir necha ichki funksiyalarni qamrab
 olgan. Ularni ba'zilari dasturlash jarayonida, ayniqsa dasturlash sistaksisini
-o‟rganish paytida juda ko'p qo'llanilganligi sababli ularni alohida qarab chiqamiz.
+o'rganish paytida juda ko'p qo'llanilganligi sababli ularni alohida qarab chiqamiz.
 
 Ma'lumotni konsol ekraniga chiqarish – ```print()``` funksiyasi hisoblanadi.
 Funksiyaga argument sifatida konsolga chiqariluvchi qiymatlar (satr, son, ifoda va
@@ -136,7 +136,7 @@ print("F.I.SH.:","Eshmatov","Toshmat")
 F.I.O: Eshmatov Toshmat
 
 Agarda ```print()``` funksiyasi ma'lumotlarni chop qilish uchun mo'ljallangan
-bo'lsa, ```input()``` ekrandan berilganlarni kiritish uchun qo‟llaniladi. ```input()```
+bo'lsa, ```input()``` ekrandan berilganlarni kiritish uchun qo'llaniladi. ```input()```
 funksiyasiga argument sifatida biror bir satr berilishi mumkin. Ushbu satr konsol
 ekranida aks ettirilib, kiritilishi kerak bo'lgan berilganlar uchun yordamchi taklif
 vazifasini bajaradi. Masalan:
@@ -146,7 +146,7 @@ name = input("F.I.O.: ")
 print("Salom", name)
 ```
 
-Natijaning konsol ekranidagi ko‟rinishi quyidagicha bo‟ladi:
+Natijaning konsol ekranidagi ko'rinishi quyidagicha bo'ladi:
 > F.I.O.: Eshmatov Toshmat  
 Salom Eshmatov Toshmat
 
