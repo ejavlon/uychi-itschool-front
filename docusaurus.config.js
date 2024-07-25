@@ -114,7 +114,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:        
-          "<marquee behavior='scroll' direction='left'>🎉 UYCHI IT SCHOOL web sayti ishga tushdi! 🥳</marquee> ",
+          "<marquee behavior='scroll' direction='left'>Yangi frontend va kompyuter savodxonligi kurslarimizga qabul davom etmoqda.Batafsil ma'lumot olish uchub sayt orqali murojaat qiling</marquee> ",
         backgroundColor: '#fafbfc',
         textColor: 'black',        
         isCloseable: true,
