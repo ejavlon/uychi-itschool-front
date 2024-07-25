@@ -21,7 +21,7 @@ a = 14
 name = "SDY"
 ```
 Bu yerda:  
-`=` - tayinlash operatori.Ushbu sintaksisda siz a o'zgaruvchisiga qiymat berasiz
+`=` – tayinlash operatori.Ushbu sintaksisda siz a o'zgaruvchisiga qiymat berasiz
 Yana ham aniqrog'i `a` o'zgaruvchi 14 qiymatning xotiradagi adresiga link desak ham bo'ladi.
 
 Yuqorida a va name o'zgaruvchilari yaratildi va ularga qiymat berildi. Shuni
