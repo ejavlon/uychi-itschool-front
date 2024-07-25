@@ -54,8 +54,8 @@ if (a == True) and (b == False) and \
 
 ## Registrga sezuvchanlik
 Python – registrga sezuvchan til hisoblanadi.
-Shuning uchun print, Print yoki PRINT ifodalar turli ifodalarni anglatadi. Agarda
-print berilganlarni chiqarish ifodasi o'rniga Print ishlatilsa xatolik yuz berganligini
+Shuning uchun `print`, `Print` yoki `PRINT` ifodalar turli ifodalarni anglatadi. Agarda
+`print` berilganlarni chiqarish ifodasi o'rniga `Print` ishlatilsa xatolik yuz berganligini
 ifodalovchi ```name "Print" is not defined``` shaklidagi xabar chiqadi.
 
 ## Kommentariyalar (Izohlar)
