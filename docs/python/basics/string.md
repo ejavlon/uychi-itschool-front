@@ -19,7 +19,7 @@ message = "Ma'lumot uchun uchun"
 
 Agar satrda qo'sh tirnoq bo'lsa, siz bitta tirnoqdan foydalanishingiz mumkin:
 ```python
-message = '"Maqsading bo\'lmasa, maqsadi borlarga hizmat qilasan" - savdogarlar ustozi kitobidan'
+message = '"Maqsading bo\'lmasa, maqsadi borlarga xizmat qilasan" - savdogarlar ustozi kitobidan'
 ```
 
 Agar bir tirnoqdan foydalanganganizgizda satrda bir tirnoq qatnashsa `\` belgidan foydalaning
