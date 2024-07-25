@@ -111,14 +111,14 @@ const config = {
       colorMode:{
         defaultMode:'light',
       },
-      // announcementBar: {
-      //   id: 'support_us',
-      //   content:
-      //     "<h4>🎉 UYCHI IT SCHOOL web sayti ishga tushdi! 🥳</h4> ",
-      //   backgroundColor: '#fafbfc',
-      //   textColor: 'black',        
-      //   isCloseable: true,
-      // },
+      announcementBar: {
+        id: 'support_us',
+        content:        
+          "<marquee behavior='scroll' direction='left'>🎉 UYCHI IT SCHOOL web sayti ishga tushdi! 🥳</marquee> ",
+        backgroundColor: '#fafbfc',
+        textColor: 'black',        
+        isCloseable: true,
+      },
       docs:{
         sidebar: {
           autoCollapseCategories: true,
