@@ -16,3 +16,4 @@ tags: [frontend, html,css,sass,javaScript]
 
 :::danger Shoshiling
 Qabul damom etmoqda !
+:::

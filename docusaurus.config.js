@@ -64,6 +64,8 @@ const config = {
     ],
   ],
 
+  
+
   themeConfig:    
     ({
 
@@ -76,9 +78,11 @@ const config = {
 
         indexName: 'uychi-itschool',
         
-        container: "### REPLACE ME WITH A CONTAINER (e.g. div) ###",
+        container: "",
 
         debug: false,
+
+        placeholder: 'test',    
   
         // Optional: see doc section below
         contextualSearch: true,

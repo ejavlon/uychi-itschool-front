@@ -13,8 +13,9 @@ tags: [savod, boshlangich,word,excel,powerpoint]
   |:------:|:----------------:|:------------:|
   | Axrorbek | 09-00 | 11-00 |
   | Axrorbek | 14-00 | 16-00 |
-  | Rahmatilla | 09-00 | 11-00 |
-  | Rahmatilla | 14-00 | 16-00 |
+  | Rahmatillo | 09-00 | 11-00 |
+  | Rahmatillo | 14-00 | 16-00 |
 
 :::danger Shoshiling
 Qabul damom etmoqda !
+:::
