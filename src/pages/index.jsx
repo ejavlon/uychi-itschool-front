@@ -1,6 +1,6 @@
 import Layout from '@theme/Layout';
 import HomepageFeatures from '../components/HomepageFeatures';
-
+import { useEffect } from 'react';
 
 export default function Home() {  
   return (

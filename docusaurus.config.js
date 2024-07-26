@@ -20,28 +20,27 @@ const config = {
     locales: ['en'],
   },
 
-  plugins: [
-    [
-      require.resolve('docusaurus-lunr-search'),
-      {
-        languages: ['en'],
-        indexBaseUrl : true, // index base url
-        // excludeRoutes : ["/ignore-endpoints"], // ignore endpoints
-        // includeRoutes : ["/"] //Include only specific routes for search
-        stopWords : [],// Add stop words(words that are exclude from search result) to the search index
-        excludeTags : [],//Exclude certain tags from the search
-        highlightResult : true, //Enable it to highlight the searched word in the result page. Used mark.js for highlighting. You can customize the highlight color using cssmark  { background-color: red !important; color: green !important }
-        disableVersioning : true, //Docs versions are displayed by default. If you want to hide it, set this plugin option to true
-        maxHits : 5 // Maximum number of hits shown
+  // plugins: [
+  //   [
+  //     require.resolve('docusaurus-lunr-search'),
+  //     {
+  //       languages: ['en'],
+  //       indexBaseUrl : true, // index base url
+  //       // excludeRoutes : ["/ignore-endpoints"], // ignore endpoints
+  //       // includeRoutes : ["/"] //Include only specific routes for search
+  //       stopWords : [],// Add stop words(words that are exclude from search result) to the search index
+  //       excludeTags : [],//Exclude certain tags from the search
+  //       highlightResult : true, //Enable it to highlight the searched word in the result page. Used mark.js for highlighting. You can customize the highlight color using cssmark  { background-color: red !important; color: green !important }
+  //       disableVersioning : true, //Docs versions are displayed by default. If you want to hide it, set this plugin option to true
+  //       maxHits : 5 // Maximum number of hits shown
         
-      }
-    ]
-  ],
+  //     }
+  //   ]
+  // ],
 
   presets: [
     [
-      'classic',
-      /** @type {import('@docusaurus/preset-classic').Options} */
+      'classic',      
       ({
         docs: {          
           sidebarPath: './sidebars.js',      
@@ -65,20 +64,61 @@ const config = {
     ],
   ],
 
-  themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
+  
+
+  themeConfig:    
     ({
+
+      algolia: {
+        // The application ID provided by Algolia
+        appId: 'VSINCO19CA',
+        
+        // Public API key: it is safe to commit it
+        apiKey: 'a6e02847c0f8d27ced2f6d470ad8381d',
+
+        indexName: 'uychi-itschool',
+        
+        container: "",
+
+        debug: false,
+
+        placeholder: 'test',    
+  
+        // Optional: see doc section below
+        contextualSearch: true,
+  
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        // externalUrlRegex: 'external\\.com|domain\\.com',
+          
+        // replaceSearchResultPathname: {
+        //   from: '/docs/', // or as RegExp: /\/docs\//
+        //   to: '/',
+        // },
+  
+        // Optional: Algolia search parameters
+        searchParameters: {},
+  
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        // searchPagePath: 'search',
+  
+        // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
+        // insights: false,
+  
+        
+      }, //endalgolia
+    
+      
       colorMode:{
         defaultMode:'light',
       },
-      // announcementBar: {
-      //   id: 'support_us',
-      //   content:
-      //     "<h4>🎉 UYCHI IT SCHOOL web sayti ishga tushdi! 🥳</h4> ",
-      //   backgroundColor: '#fafbfc',
-      //   textColor: 'black',        
-      //   isCloseable: true,
-      // },
+      announcementBar: {
+        id: 'support_us',
+        content:        
+          "<marquee behavior='scroll' direction='left'>Yangi frontend va kompyuter savodxonligi kurslarimizga qabul davom etmoqda.Batafsil ma'lumot olish uchub sayt orqali murojaat qiling</marquee> ",
+        backgroundColor: '#fafbfc',
+        textColor: 'black',        
+        isCloseable: true,
+      },
       docs:{
         sidebar: {
           autoCollapseCategories: true,
@@ -95,9 +135,7 @@ const config = {
         },
         
         items: [              
-          {
-            // type: 'docSidebar',
-            // sidebarId: 'html',
+          {            
             type: 'dropdown',
             position: 'right',
             label: 'Academy',            
@@ -111,38 +149,14 @@ const config = {
                 label: "Java Development",
                 to: "/docs/java/intro",                
               },
+              {                
+                label: "Python development",
+                to: "/docs/python/intro",                
+              },
 
             ]
-          },     
-          // {
-          //   type: 'docSidebar',
-          //   position: 'left',
-          //   sidebarId: 'css',
-          //   label: 'CSS',
-          // },                 
-          // {
-          //   type: 'docSidebar',          
-          //   position: 'left',
-          //   sidebarId: 'javaScript',
-          //   label: 'JavaScript',
-          // },  
-          // {
-          //   type: 'docSidebar',
-          //   position: 'left',
-          //   sidebarId: 'java',
-          //   label: 'Java',
-          // },                  
-          {to: '/blog', label: 'Blog', position: 'right'},          
-          // {
-          //   href: 'https://github.com/',
-          //   label: 'GitHub',
-          //   position: 'right',
-          // },
-          // {
-          //   href: 'https://youtube.com/',
-          //   label: 'YouTube',
-          //   position: 'right',
-          // },
+          },                        
+          {to: '/blog', label: 'Blog', position: 'right'},                    
           {
             href: 'https://t.me/',
             label: 'Telegram',
@@ -156,11 +170,7 @@ const config = {
         links: [
           {
             title: 'Kurslarimiz',
-            items: [
-              // {
-              //   label: 'Kompyuter savodxonligi',
-              //   to: '/docs/intro',
-              // },              
+            items: [                       
               {
                 label: 'Frontend Development',
                 to: '/docs/frontend/intro',

@@ -1,24 +1,29 @@
-import React, { useEffect } from 'react'
+import React, { useEffect } from 'react';
 import Particle from './ParticleFeatures/Particle';
 
 export default function HomepageFeatures() {
-
-  
   useEffect(() => {
-    const loadReplainJS = () => {      
-      const script = document.createElement('script');      
+    const loadReplainJS = () => {
+      const script = document.createElement('script');
       script.src = './replain.js';
-      script.onload = () => initializeParticlesJS();
+      script.onload = () => {
+        console.log('replain.js loaded');        
+      };
       document.body.appendChild(script);
     };
 
     loadReplainJS();
-  },[])
+
+    // Cleanup script when component unmounts
+    return () => {
+      const scripts = document.querySelectorAll('script[src="./replain.js"]');
+      scripts.forEach(script => script.remove());
+    };
+  }, []);
+
   return (
-    <div >      
-      <div>        
-        <Particle/>      
-      </div>
-    </div>
-  )
+    <React.Fragment>
+      <Particle />
+    </React.Fragment>
+  );
 }
