@@ -43,6 +43,15 @@ True
 >>> bool(0)
 False
 ```
+
+Quyidagi qiymatlar python-da False qiymat qaytaradi:
+    - Nol raqami ( 0)
+    - Bo'sh qator `''`
+    - `False`
+    - `None`
+    - Bo'sh ro'yxat `[]`
+    - Bo'sh kortej `()`
+    - Bo'sh to'plam `{}`
 ## Mantiqiy operatorlar
 Murakkab shartli ifodalarni yozish, odatda mantiqiy amallar yordamida
 amalga oshiriladi. Pythonda quyidagi mantiqiy operatorlar mavjud:  
