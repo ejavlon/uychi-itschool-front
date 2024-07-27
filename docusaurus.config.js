@@ -82,7 +82,7 @@ const config = {
 
         debug: false,
 
-        placeholder: 'test',    
+        placeholder: 'Search',    
   
         // Optional: see doc section below
         contextualSearch: true,
@@ -114,7 +114,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:        
-          "<marquee behavior='scroll' direction='left'>Yangi frontend va kompyuter savodxonligi kurslarimizga qabul davom etmoqda.Batafsil ma'lumot olish uchub sayt orqali murojaat qiling</marquee> ",
+          "<marquee behavior='scroll' direction='left'>Frontend va kompyuter savodxonligi kurslariga qabul davom etmoqda.Batafsil ma'lumot olish uchun qo'llab quvvatlash xizmati orqali murojaat qiling!</marquee> ",
         backgroundColor: '#fafbfc',
         textColor: 'black',        
         isCloseable: true,
