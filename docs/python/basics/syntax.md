@@ -35,7 +35,7 @@ qatorlarda yoziladi. Masalan if shart konstruktsiyasi shular jumlasidan:
 
 ```python
 if 10 < 20:
-print("Shart bajarildi")
+    print("Shart bajarildi")
 ```
 
 Bu holatda 10 soni 20 sonidan kichik va `Shart bajarildi` so'zi chiqariladi.
