@@ -1,12 +1,17 @@
 ---
 sidebar_position: 1
+title: 'JVM, JRE va JDK'
 ---
+
+import Box from '@mui/material/Box';
+
+<Box sx={{textAlign: 'justify'}}>
 
 # JVM, JRE va JDK
 
 ## 1. JVM
 
-Java Virtual Machine `(JVM)`'ning vazifasi tarjimonlik ya'ni, dastlab biz yozgan `*.java` fayl kompilyator yordamida baytkodga o'giriladi va `JVM` yordamida mashina tiliga aylantiriladi. Bu degani `JVM` qaysi platformaga tegishli bo'lsa, kodlarni ham o'sha platformaga moslab beradi.
+Java Virtual Machine `(JVM)` ning vazifasi tarjimonlik ya'ni, dastlab biz yozgan `*.java` fayl kompilyator yordamida baytkodga o'giriladi va `JVM` yordamida mashina tiliga aylantiriladi. Bu degani `JVM` qaysi platformaga tegishli bo'lsa, kodlarni ham o'sha platformaga moslab beradi.
 JVM ni ko'pgina qurilmalar va dasturiy ta'minotlar uchun ishlatish mumkin. Har bir OT(operatsion tizim) uchun `JVM`, `JRE` va `JDK` lar konfugratsiyasi farq qiladi, chunki bular platformaga bog'liq. Lekin java mustaqil platforma hisoblanadi.  
 
 `JVM` komponentlari quyidagilardir:
@@ -56,3 +61,5 @@ Java Development Kit `(JDK)` Java dasturini ishlab chiqish, kompilyatsiya qilish
 <div style={{textAlign: 'center'}}>
     ![jre.jpg](./static/jdk.jpg)
 </div>
+
+</Box>

@@ -1,28 +1,35 @@
 ---
 sidebar_position: 2
+title: "O'zgaruvchilar"
 ---
+import Box from '@mui/material/Box';
+
+<Box sx={{textAlign: 'justify'}}>
 
 # O'zgaruvchilar va berilganlar turlari
 Pythonda, boshqa dasturlash tillaridagi kabi o'zgaruvchilar aniq bir turdagi
 berilganlarni saqlash uchun xizmat qiladi. Pythonda o'zgaruvchilar alfavit belgilari
 yoki tag chizig'i belgisi bilan boshlanishi va tarkibi son, alfavit belgilari, tag
-chizig'i belgilaridan iborat bo'lishi, ya`ni bir so'z bilan aytganda identifikator
+chizig'i belgilaridan iborat bo'lishi, ya'ni bir so'z bilan aytganda identifikator
 bo'lishi kerak. Bundan tashqari o'zgaruvchi nomi Pythonda ishlatiladigan kalit
-so'zlar nomi bilan mos tushmasligi shart. Masalan, o'zgaruvchi nomi ```and```, ```as```,
-```assert```, ```break```, ```class```, ```continue```, ```def```, ```del```, ```elif```, ```else```,
-```except```, ```False```, ```finally```, ```for```, ```from```,
-```global```, ```if```, ```import```, ```in```, ```is```, ```lambda```, ```None```, ```nonlocal```,
-```not```, ```or```, ```pass```, ```raise```, ```return```, ```True```,
-```try```, ```while```, ```with```, ```yield``` kabi kalit so'zlar nomi bilan mos tushishi mumkin emas.
+so'zlar nomi bilan mos tushmasligi shart.
+
+Masalan, o'zgaruvchi nomi `and`, `as`,
+`assert`, `break`, `class`, `continue`, `def`, `del`, `elif`, `else`,
+`except`, `False`, `finally`, `for`, `from`,
+`global`, `if`, `import`, `in`, `is`, `lambda`, `None`, `nonlocal`,
+`not`, `or`, `pass`, `raise`, `return`, `True`,
+`try`, `while`, `with`, `yield` kabi kalit so'zlar nomi bilan mos tushishi mumkin emas.
     
-Masalan, o'zgaruvchini aniqlash (hosil qilish) quyidagicha amalga oshiriladi:
+O'zgaruvchini aniqlash (hosil qilish) quyidagicha amalga oshiriladi:
 ```python
 a = 14
 name = "SDY"
 ```
-Bu yerda:  
+:::info Bu yerda:  
 `=` – tayinlash operatori.Ushbu sintaksisda siz a o'zgaruvchisiga qiymat berasiz
 Yana ham aniqrog'i `a` o'zgaruvchi 14 qiymatning xotiradagi adresiga link desak ham bo'ladi.
+:::
 
 Yuqorida a va name o'zgaruvchilari yaratildi va ularga qiymat berildi. Shuni
 alohida ta'kidlash kerakki, Pythonda o'zgaruvchini dastlab e'lon qilish degan
@@ -56,12 +63,12 @@ sonlar, ketma-ketliklar, lug'atlar va to'plamlar:
 `float` – suzuvchan nuqtali sonlar (haqiqiy sonlar) uchun, haqiqiy sonlarni saqlash uchun kompyuter xotirasidan 8 bayt joy ajratiladi;  
 `complex` – kompleks sonlar uchun;  
 `str` – satrlar uchun, Python 3.x versiyasidan boshlab satrlar bu- Unicode kodirovkasidagi belgilar ketma-ketligini ifodalaydi;  
-`bytes` – 0-255 diapazondagi sonlar ketma ketligi uchun  
-`byte` array – baytlar massivi uchun;  
+`bytes` – [0-255] diapazondagi sonlar ketma ketligi uchun  
+`bytearray` – baytlar massivi uchun;  
 `list` – ro'yхatlar uchun;  
 `tuple` – kortejlar uchun;  
 `set` – tartiblanmagan unikal ob'ektlar kollektsiyasi uchun;  
-`frozen set `– set singari, faqat u o'zgartirilishi mumkin emas (immutable);  
+`frozenset `– set singari, faqat u o'zgartirilishi mumkin emas (immutable);  
 `dict` – lug'atlar uchun. Har bir element kalit so'z va qiymat juftligi ko'rinishida ifodalaniladi.  
 
 Python – dinamik turlarga ajratuvchi dasturlash tili hisoblanadi. Yuqorida
@@ -112,3 +119,4 @@ print(type(age))
 Konsol ekranidagi natija:
 > &lt;class 'int'&gt;  
 &lt;class 'str'&gt;
+</Box>

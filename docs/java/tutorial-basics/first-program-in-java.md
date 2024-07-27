@@ -1,8 +1,13 @@
 ---
 sidebar_position: 2
+title: 'Java-da birinchi dastur'
 ---
 
-# Java'da birinchi dasturingizni yarating
+import Box from '@mui/material/Box';
+
+<Box sx={{textAlign: 'justify'}}>
+
+# Java-da birinchi dasturingizni yarating
 
 Xech qanday qo'shimcha dastur va `IDEA'larisiz` birinchi dasturingizni yarating!
 
@@ -13,7 +18,6 @@ public class Main{
   }
 }
 ```
-
 
 export const Highlight = ({children, color}) => (
   <span
@@ -36,3 +40,5 @@ export const Highlight = ({children, color}) => (
 <Highlight color="green">RUN</Highlight>
 
 :::danger tez kunda 
+:::
+</Box>

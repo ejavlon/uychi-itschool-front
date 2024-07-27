@@ -5,6 +5,10 @@ tags: ['Python','Grido Van Rossu']
 date: 25-07-2024
 ---
 
+import Box from '@mui/material/Box';
+
+<Box sx={{textAlign: 'justify'}}>
+
 # Kirish
 Python - yuqori bosqichli dasturlash tili hisoblanib, tirli xil ilovalarni yaratish
 uchun mo'ljallangan. Ya'ni Python dasturlash tili yordamida veb-ilovalar, o'yin
@@ -66,3 +70,4 @@ Pythonda dastur tuzish uchun interpretator kerak
 bo'ladi. Uni kompyuteringizdagi o'rnatilgan operasion tizim turiga mos ravishda
 https://www.python.org rasmiy saytidan kerakli versiyasini yuklab olishingiz
 mumkin.
+</Box>

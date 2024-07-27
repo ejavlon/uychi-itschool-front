@@ -150,7 +150,7 @@ const config = {
                 to: "/docs/java/intro",                
               },
               {                
-                label: "Python development",
+                label: "Python Development",
                 to: "/docs/python/intro",                
               },
 
