@@ -1,18 +1,16 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
-/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'UYCHI IT SCHOOL',
   tagline: 'Zamonaviy kasblarni biz bilan birga o\'rganing',
-  favicon: 'img/favicon2.ico',
-
+  favicon: 'img/favicon2.ico',  
   url: 'https://uychi-itschool.uz',
   
   baseUrl: '/',
   
   organizationName: 'UYCHI IT SCHOOL', 
   projectName: 'uychi-itschool',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',//throw
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -63,8 +61,6 @@ const config = {
       }),
     ],
   ],
-
-  
 
   themeConfig:    
     ({
@@ -153,10 +149,14 @@ const config = {
                 label: "Python Development",
                 to: "/docs/python/intro",                
               },
-
             ]
           },                        
-          {to: '/blog', label: 'Blog', position: 'right'},                    
+          {to: '/blog', label: 'Blog', position: 'right'},          
+          {
+            to: '/auth/login',  // Path to your login page
+            label: 'Sign In',
+            position: 'right',   // Position on the right side of the navbar
+          },
           {
             href: 'https://t.me/',
             label: 'Telegram',
@@ -232,5 +232,9 @@ const config = {
       },
     }),  
 };
+
+// module.exports = {
+//   onBrokenLinks: 'ignore',
+// }
 
 export default config;
