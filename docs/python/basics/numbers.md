@@ -2,6 +2,10 @@
 sidebar_position: 4
 ---
 
+import Box from '@mui/material/Box';
+
+<Box sx={{textAlign: 'justify'}}>
+
 # Numbers
 Python `integers`, `float` va `complex numbers` sonlar to'plamini qo'llab-quvvatlaydi.
 
@@ -114,3 +118,4 @@ print(son) # 8
 son **= 2
 print(son) # 64
 ```
+</Box>

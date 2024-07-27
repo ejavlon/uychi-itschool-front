@@ -2,6 +2,10 @@
 sidebar_position: 5
 ---
 
+import Box from '@mui/material/Box';
+
+<Box sx={{textAlign: 'justify'}}>
+
 # Boolean
 Dasturlashda siz ko'pincha shartning to'g'ri yoki noto'g'riligini tekshirishni va natijaga qarab ba'zi harakatlarni bajarilishi mumkin.
 Rost va yolg'onni ko'rsatish uchun Python sizga mantiqiy ma'lumotlar turini taqdim etadi. Pythin-da bool turidagi o'zgaruvchilar mantiqiy
@@ -127,3 +131,4 @@ Ushbu dasturda keltirilgan ifodadagi mantiqiy amallar kuyidagi ketmaketlikda baj
 Shuni alohida ta'kidlash kerarki, mantiqiy ifodalarda mantiqiy amallarning
 bajarilish ketma-ketligini qavslar `()` yordamida o'zgartirish mumkin.
 :::
+</Box>
