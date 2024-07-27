@@ -152,11 +152,11 @@ const config = {
             ]
           },                        
           {to: '/blog', label: 'Blog', position: 'right'},                    
-          {
-            href: 'https://t.me/',
-            label: 'Telegram',
-            position: 'right',
-          },
+          // {
+          //   href: 'https://t.me/',
+          //   label: 'Telegram',
+          //   position: 'right',
+          // },
           {
             to: '/auth/login',
             label: 'Kirish',
