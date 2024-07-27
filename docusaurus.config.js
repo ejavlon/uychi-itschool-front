@@ -151,17 +151,17 @@ const config = {
               },
             ]
           },                        
-          {to: '/blog', label: 'Blog', position: 'right'},          
-          {
-            to: '/auth/login',  // Path to your login page
-            label: 'Sign In',
-            position: 'right',   // Position on the right side of the navbar
-          },
+          {to: '/blog', label: 'Blog', position: 'right'},                    
           {
             href: 'https://t.me/',
             label: 'Telegram',
             position: 'right',
-          },          
+          },
+          {
+            to: '/auth/login',
+            label: 'Kirish',
+            position: 'right',
+          },
         ],
       },
       
