@@ -92,7 +92,7 @@ id = 234 # int
 x = 1.2e2  # = 1200.0float
 y = 6.7e-3 # = 0.0067float
 z = 1.223 # float 
-user_password = "5T5f-J'0!3a5" # str
+password = "5T5f-J'0!3a5" # str
 b = True # bool
 ```
 
