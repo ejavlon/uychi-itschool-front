@@ -1,5 +1,6 @@
 ---
 sidebar_position: 5
+title: 'Boolean'
 ---
 
 import Box from '@mui/material/Box';

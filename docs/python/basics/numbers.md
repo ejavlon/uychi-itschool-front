@@ -1,5 +1,6 @@
 ---
 sidebar_position: 4
+title: 'Numbers'
 ---
 
 import Box from '@mui/material/Box';
