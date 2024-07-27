@@ -88,22 +88,21 @@ butun son yuklansa – int, haqiqiy son yuklansa (masalan: 3.14) yoki eksponents
 ko'rinishdagi qiymat yuklansa (masalan: 11e-1) u float turiga ega bo'ladi.
 Masalan:
 ```python
-user_id = 234 # int
+id = 234 # int
 x = 1.2e2  # = 1200.0float
 y = 6.7e-3 # = 0.0067float
 z = 1.223 # float 
-user_password = "sdy123" # str
+user_password = "5T5f-J'0!3a5" # str
 b = True # bool
 ```
 
 Pythonda haqiqiy (float) turidagi o'zgaruvchilar [-10308 , +10308] oraliqdagi
 sonlar bilan hisoblash ishlarini amalga oshirsa bo'ladi, lekin faqat 18 ta raqamlar
-ketma-ketligi ko'rinadi (konsol ekraniga chiqarilganda). Ixtiyoriy
-katta yoki
+ketma-ketligi ko'rinadi (konsol ekraniga chiqarilganda). Ixtiyoriy katta yoki
 kichik sonlarni o'zgaruvchidagi ifodasi 18 ta belgidan oshib ketsa, u holda
 eksponentsial orqali yaxlitlab ifodalanadi.
 
-Shuni ham ta`kidlash kerakki, Pythonda o'zgaruvchiga yangi qiymat berish
+Shuni ham ta'kidlash kerakki, Pythonda o'zgaruvchiga yangi qiymat berish
 orqali uning turi o'zgartirilishi mumkin. Masalan:
 ```python
 age = 17 # int
@@ -112,9 +111,9 @@ age = "o'n etti" # str
 print(age)
 ```
 
-Ushbu dasturda dastlab `age = 17` ifodasi orqali age o'zgaruvchisi int turiga
-ega edi. Keyingi `age = "o'n etti"` ifoda bilan uning turi str turiga o'zgartirildi.
-Bundan keyingi jarayonlarda age o'zgaruvchisi eng ohirgi yuklangan qiymat turiga
+Ushbu dasturda dastlab `age = 17` ifodasi orqali `age` o'zgaruvchisi int turiga
+ega edi. Keyingi `age = "o'n etti"` ifoda bilan uning turi `str` turiga o'zgartirildi.
+Bundan keyingi jarayonlarda age o'zgaruvchisi eng oxirgi yuklangan qiymat turiga
 mos bo'ladi.
 
 O'zgaruvchilarning turini aniqlashda `type()` – funksiyasidan foydalaniladi.
