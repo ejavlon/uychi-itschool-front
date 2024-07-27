@@ -23,19 +23,28 @@ Masalan, o'zgaruvchi nomi `and`, `as`,
     
 O'zgaruvchini aniqlash (hosil qilish) quyidagicha amalga oshiriladi:
 ```python
-a = 14
-name = "SDY"
+age = 14
+name = "Eshmat"
 ```
 :::info Bu yerda:  
-`=` – tayinlash operatori.Ushbu sintaksisda siz a o'zgaruvchisiga qiymat berasiz
-Yana ham aniqrog'i `a` o'zgaruvchi 14 qiymatning xotiradagi adresiga link desak ham bo'ladi.
+`=` – tayinlash operatori.Ushbu sintaksisda siz `age` o'zgaruvchisiga qiymat berasiz
+Yana ham aniqrog'i `a` o'zgaruvchi `14` qiymatning xotiradagi adresiga link desak ham bo'ladi.
 :::
 
-Yuqorida a va name o'zgaruvchilari yaratildi va ularga qiymat berildi. Shuni
+Yuqorida age va name o'zgaruvchilari yaratildi va ularga qiymat berildi. Shuni
 alohida ta'kidlash kerakki, Pythonda o'zgaruvchini dastlab e'lon qilish degan
 tushuncha mavjud emas.  
-Masalan: c++ tilida  int a kabi o'zgaruvchi e'lon qilinadi
+
+:::info ma'lumot
+Masalan: c++ tilida o'zgaruvchi quyidagi ko'rinishda e'lon qilinadi 
+```c
+int age;
+
+std::cin >> age;
+std::cout << age std::endl; 
+```
 balki o'zgaruvchi kiritiladi va unga qiymat beriladi (masalan: a=14).
+:::
 
 Berilgan qiymatga ko'ra interpretator o'zgaruvchining turini aniqlaydi.
 Pythonda o'zgaruvchilarni nomlashning ikki turi: `camel case` va `snake case`
