@@ -7,7 +7,7 @@ import Box from '@mui/material/Box';
  
 <Box sx={{textAlign: 'justify'}}> 
  
-# Print va println metodlari
+# Java-da print va println metodlari
 
 Java'da print va println metodlari console'ga xabar chiqarish uchun ishlatiladi
 

@@ -7,7 +7,7 @@ import Box from '@mui/material/Box';
  
 <Box sx={{textAlign: 'justify'}}> 
  
-# Kommentariyalar
+# Java-da kommentariyalar
 
 :::info Kommentariyalar
     Java'da commentlar code'larga izoh yozish yoki hujjatlashtrish uchun ishlatiladi.Commentga olingan code  kompilyator tomonidan e'tiborga olinmaydi
