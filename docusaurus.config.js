@@ -110,7 +110,7 @@ const config = {
       announcementBar: {
         id: 'support_us',
         content:        
-          "<marquee behavior='scroll' direction='left'>Frontend va kompyuter savodxonligi kurslariga qabul davom etmoqda.Batafsil ma'lumot olish uchun qo'llab quvvatlash xizmati orqali murojaat qiling!</marquee> ",
+          "<marquee behavior='scroll' direction='left'>Java backend va kompyuter savodxonligi kurslariga qabul davom etmoqda.Batafsil ma'lumot olish uchun qo'llab quvvatlash xizmati orqali murojaat qiling!</marquee> ",
         backgroundColor: '#fafbfc',
         textColor: 'black',        
         isCloseable: true,
