@@ -46,7 +46,7 @@ Natija quyidagicha ko'rinishda bo'lishi kerak:
   Hello world  
 ```
  
-## Endi nimalar yozilganini bitta qarab chiqaylik. 
+## Code'ni tahlil qilib chiqaylik
  
 ```javaScript md title="Main.java" 
 public class Main{ 
@@ -65,8 +65,34 @@ project'nig ixtiyoriy qismidan murojat qilish imkonini yaratadi.
 :::info Yodda tuting
   Bitta `*.java` faylda bittda public class bo'ladi va  uning nomi `*.java` fayli nomi bilan bir xil bo'lishi kerak!
 ::: 
- 
-export const Highlight = ({children, color}) => ( 
+
+## Editor o'rnatish
+
+Java muhitida code yozish uchun ko'plab editorlar mavjud, masalan:
+- `Visual Studio Code (VS Code)`
+  - Niam uchun tanlash kerak: Bepul va ochiq manba, plaginlar bilan yuqori darajada sozlanishi, yengilligi, keng ko'lamli tillarni qo'llab-quvvatlaydi va hamjamiyat   tomonidan katta yordamga ega.
+
+  - Kamchiliklari: Java-da dastur ishlab chiqish uchun ko'proq sozlashni talab qiladi, IntelliJ bilan solishtirganda ba'zi ilg'or xususiyatlardan mahrum.
+
+- `Eclipse`
+  - Niam uchun tanlash kerak: Bepul va ochiq manba, Java rivojlanishi uchun kuchli, keng plagin ekotizimi, bir nechta dasturlash tillarini qo'llab-quvvatlaydi.
+
+  - Kamchiliklari: sekinroq va ko'proq resurs talab qilishi mumkin, foydalanuvchi interfeysi eskirgandek tuyulishi mumkin va yangi boshlanuvchilar uchun bu juda qiyin bo'lishi mumkin.
+
+- `NetBeans`
+
+  - Niam uchun tanlash kerak: Bepul va ochiq manba, Java-da dastur ishlab chiqish uchun yaxshi, juda ko'p imkoniyatlardan tashqari, sozlash va ishlatish uchun qulay.
+
+  - Kamchiliklari: Interfeys u qadar zamonaviy emas va u IntelliJ bilan solishtirganda kamroq sayqallangandek tuyulishi mumkin
+
+
+- `IntelliJ IDEA`
+  - Niam uchun tanlash kerak:  kodni to'ldirish, kuchli qayta ishlash vositalari, versiyani boshqarish tizimi integratsiyasi, Mustahkam disk raskadrovka va   sinov vositalari, plaginlar va moslashtirish, smart navigatsiya, tillararo refaktoring
+
+  - Kamchiliklari: Resurs talab qiladi, yangi boshlovchilar uchun qiyin, narxi (community versiya bepul), uzoqroq vaqtda ishga tushushi, murakkab konfiguratsiya 
+
+
+<!-- export const Highlight = ({children, color}) => ( 
   <span 
     style={{ 
       display : 'inline-block', 
@@ -84,8 +110,6 @@ export const Highlight = ({children, color}) => (
   </span> 
 ); 
  
-<Highlight color="green">RUN</Highlight> 
+<Highlight color="green">RUN</Highlight>  -->
  
-:::danger tez kunda  
-::: 
 </Box>
