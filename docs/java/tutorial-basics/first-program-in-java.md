@@ -90,10 +90,10 @@ public class Main{
   - `"Hello, world"` - String turidagi ifoda bo'lib, u matnni ifodalaydi. Metodga berilgan argument bu matndir.
 
 4 - satr: `}`  
-  Method tanasi yopilganini bildiradi
+  Method tanasi yopilganini bildiradi.
 
 6 - satr: `}`  
-  Class tanasi yopilganini bildiradi
+  Class tanasi yopilganini bildiradi.
 
 
 :::info Eslab qoling
