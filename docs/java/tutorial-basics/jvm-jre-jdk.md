@@ -19,24 +19,6 @@ JVM ni ko'pgina qurilmalar va dasturiy ta'minotlar uchun ishlatish mumkin. Har b
     - Run-Time Data Areas
     - Execution Engine
 
-<!-- ### 1.1 Class Loaders
-
-Java virtual mashinasida `(JVM)` sinf yuklovchi `(Class Loaders)` java sinflarini `JVM` ga yuklash uchun javobgardir.
-
-Sinf yuklagichi bir nechta asosiy funktsiyalarni bajaradi:
-    - Loading - java sinfi uchun bayt kodini o'z ichiga olgan sinf faylini (odatda fayl tizimi yoki tarmoqdan) topadi va o'qiydi.
-
-    - Linking - sinfni yuklagandan so'ng, sinf yuklovchisi tekshirish, tayyorlash va ixtiyoriy ravishda hal qilishni o'z ichiga olgan ulanishni amalga oshiradi
-
-    - Initialization - sinf yuklovchisi sinfning statik ishga tushirgichlari va statik bloklarini bajarish orqali sinfni ishga tushiradi. Ushbu qadam sinf haqiqatda ishlatilgunga qadar (ya'ni, kodda havola qilinmaguncha) kechiktiriladi
-
-:::info Class Loaders
-    - Bootstrap Class Loader
-    - Extension Class Loader
-    - System Class Loader
-::: -->
-
-
 ## 2. JRE
 
 Java Runtime Environment `(JRE)` - tushunish uchun `Java bajarilish muhiti` deb atasak bo'ladi.  
