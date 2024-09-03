@@ -22,7 +22,7 @@ Bloknot (linuxda shunga alternative text editor) dasturini oching va quyida dast
 ```md title="Main.txt" 
 public class Main{ 
   public static void main(String args[]){ 
-    System.out.println("Hello world"); 
+    System.out.println("Hello, world"); 
   } 
 }  
 ```
@@ -51,19 +51,53 @@ Natija quyidagicha ko'rinishda bo'lishi kerak:
 ```javaScript md title="Main.java" 
 public class Main{ 
   public static void main(String args[]){ 
-    System.out.println("Hello world"); 
+    System.out.println("Hello, world"); 
   } 
 }
 ```
- 
- 
-- `Main` -  bu klasni nomi  
-- `class` - class yaratish uchun kalit so'z(yuqorida holatda Main nomli class yaratishda ishlatilgan) 
-- `public` - access modifikator.Bu yerda public modifikator class'da ishlatilgan (o'zgaruvchi va methodlar yaratishda ham ishlatiladi) yaratilayotgan class'ga 
-project'nig ixtiyoriy qismidan murojat qilish imkonini yaratadi. 
- 
-:::info Yodda tuting
-  Bitta `*.java` faylda bittda public class bo'ladi va  uning nomi `*.java` fayli nomi bilan bir xil bo'lishi kerak!
+1 - satr: `public class Main{` 
+    - `public` - access modifikator
+    - `class` - java-da class yaratish uchub kalit (keyword) so'z hisbolanadi.    
+    - `Main` -  bu klasni nomi  
+    - `{` - figurali qavs class tanasi (class body) boshlanganligini bildiradi.
+
+
+:::info Eslab qoling
+  Java-da yaratilgan dastur kamida bitta class'dan tashkil topgan bo'ladi va barcha yoziladigan code'lar aynan class'lar ichida
+  joylashgan bo'ladi(interface-lar bundan mustasno)
+:::
+
+
+2 - satr: `public static void main(String args[]){`
+  - `static` - static o'zgaruvchilar, static metodlar va static block'lar yaratish vazifasini bajaradi.
+  - `void` - method'ning qiymat qaytarish turi, void turida hech qanday qiymat qaytmaydi.  
+      Ya'ni, bu metod bajarilganda u faqat amalni bajaradi, lekin hech   qanday natijani qaytarmaydi.  
+  - `main` - method nomi
+  - `String args[]` - qismi dasturga qo'shimcha argumentlarni jo'natish imkonini beradi. Bu argumentlar dastur konsol orqali ishga tushirilganda komanda qatorida beriladi.Masalan:  
+  ```
+    java Main arg1 arg2 arg3
+  ```
+  - `{` - main method tanasi boshlanishi
+
+3 - satr: `System.out.println("Hello, world");`
+  - `System` - java standart kutubxonasi ichidagi `java.lang` paketidagi class.
+  - `out` - System class'ning statik o'zgaruvchisi bo'lib, u PrintStream turidagi obyektni ifodalaydi.  
+      - out o'zgaruvchisi konsol (standart chiqish) bilan bog'langan, ya'ni u orqali biz konsolga matn yoki boshqa ma'lumotlarni chiqarishimiz mumkin.
+      - out static o'zgaruvchi bo'lgani uchun, uni System.out deb chaqiramiz.
+  - `println` - PrintStream sinfining metodi bo'lib, u argument sifatida berilgan qiymatni (bu yerda "Hello, world") consol'ga chiqaradi va oxirida yangi qatorga o'tadi
+    - `println` metodi turli xil argumentlarni qabul qilishi mumkin (int, float, String va h.k.), va har safar o'z argumentini matn shaklida chiqaradi.
+    - `println` so'zida "print" - chop etish (chiqarish), "ln" - line, ya'ni qator degan ma'noni anglatadi, bu metod chop etishdan so'ng yangi qatorga o'tishini bildiradi.
+  - `"Hello, world"` - String turidagi ifoda bo'lib, u matnni ifodalaydi. Metodga berilgan argument bu matndir.
+
+4 - satr: `}`  
+  Method tanasi yopilganini bildiradi
+
+6 - satr: `}`  
+  Class tanasi yopilganini bildiradi
+
+
+:::info Eslab qoling
+  Bitta `*.java` faylda bittda public class bo'ladi(inner emas) va  uning nomi `*.java` fayli nomi bilan bir xil bo'lishi kerak!
 ::: 
 
 ## Editor o'rnatish

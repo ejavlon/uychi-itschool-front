@@ -16,7 +16,7 @@ import Box from '@mui/material/Box';
 
 ## Kommentariya turlari
 
-Java-da uch xil komment turi mavjud
+Java-da uch xil komment turi mavjud:
 
     - `//` -  Bir qator comment yaratish uchun
     - `/* */` -  Bir nechta qatorli comment yaratish uchun 
