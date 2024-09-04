@@ -29,7 +29,7 @@ public class Main{
 
 Yaratilgan `Main.txt` nomli faylni `*.java` formatga o'zgartrib saqlang.   
  
-Yaratilgan `Main.java` nomli compile qilish uchun `Main.java` turga papkada cmd (linuxda terminal) dasturini ishga tushiring va quyidagi commandani kiriting: 
+Yaratilgan `Main.java` nomli compile qilish uchun `Main.java` fayli turga papkada cmd (linuxda terminal) dasturini ishga tushiring va quyidagi commandani kiriting: 
 ```
 javac Main.java  
 ```
