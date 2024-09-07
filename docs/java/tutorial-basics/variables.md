@@ -170,7 +170,7 @@ Non-primitive ma'lumot turlari ko'proq murakkab ma'lumotlarni saqlash uchun ishl
 
 Java-da non-primitive ma'lumotlarning besh turi mavjud. Ular quyidagicha:
 
-| Nomlanishi | Qiymatlar oralig'i | Stack'da egallagan hajmi | Izoh |
+| Nomlanishi | Qiymatlar oralig'i | Xotirada egallagan hajmi | Izoh |
 | :--------: | :----------------: | :----------------------: | :--: |
 | Class/Obyekt | Turli xususiyatlarga ega ob'ektlar | 4 yoki 8 bayt (reference) |  Class yoki ob'ektlar Heap'da saqlanadi, Stack'da esa ob'ektning manzili(reference) saqlanadi. |
 | Interface |  | 4 yoki 8 bayt (reference) |  Interface'lar o'zlari ob'ekt bo'lmasligi mumkin, ammo ularni implement qilgan qilgan class'larnng Stack'da reference qiymati saqlanadi. |
