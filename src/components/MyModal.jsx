@@ -27,6 +27,8 @@ export default function MyModal({open,setOpen,title,message}) {
     setOpen(false);
   };
 
+  
+
   return (
     <div>      
       <Modal

@@ -14,6 +14,7 @@ import Groups from '../../components/GroupsFeatures/Groups';
 import Students from '../../components/StudentsFeatures/Students';
 import NewStudents from '../../components/NewStudentsFeatures/NewStudents';
 import Appeals from '../../components/AppealsFeatures/Appeals';
+import Proverb from '../../components/DocsFeatures/Proverb';
 
 export default function Dashboard() {
   const [open, setOpen] = React.useState(true);
@@ -87,6 +88,7 @@ export default function Dashboard() {
         >
           <Toolbar />
           <Container maxWidth="lg" sx={{ mt: 4, mb: 4 }}>
+            <Proverb/>
             {
               currentPage === "groups" ? <Groups/> : 
               currentPage === "stundets" ? <Students/> :
