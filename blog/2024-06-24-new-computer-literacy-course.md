@@ -4,7 +4,7 @@ title: Kompyuter savodxonligi kurslariga qabul davom etmoqda!
 authors: [axrorbek]
 tags: [savod, boshlangich,word,excel,powerpoint]
 ---
-
+<!-- truncate -->
 #### Yangi `kompyuter savodxonligi` kursimizga qabul davom etmoqda
 
 **- Vaqt grafiklari:**

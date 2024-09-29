@@ -50,7 +50,9 @@ const config = {
         blog: {
           showReadingTime: true,
           showLastUpdateAuthor: true,        
-          showLastUpdateTime: true,
+          showLastUpdateTime: true,      
+          blogSidebarTitle: 'Barcha postlar',
+                    
           // editUrl:
           //   'https://github.com/ejavlon/uychi-itschool/blog',
         },
