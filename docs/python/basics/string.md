@@ -1,6 +1,10 @@
 ---
 sidebar_position: 3
+title : 'String'
 ---
+import Box from '@mui/material/Box';
+
+<Box sx={{textAlign: 'justify'}}>
 
 # String (str)
 Satrlar – qo'shtirnoq ichiga olingan Unicode kodidagi belgilar ketma-ketligi
@@ -117,3 +121,4 @@ Pythonda satrlar o'zgarmasdir. Bu siz satrni o'zgartira olmaysiz degan ma'noni a
 str = "Python String"
 str[0] = 'J'
 ```
+</Box>

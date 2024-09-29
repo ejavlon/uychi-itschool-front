@@ -1,6 +1,10 @@
 ---
 sidebar_position: 1
+title: 'Sintaksis'
 ---
+import Box from '@mui/material/Box';
+
+<Box sx={{textAlign: 'justify'}}>
 
 # Python sintaksisi
 Python tilida dastur instruktsiyalar to'plamidan tashkil topgan bo'lib, har bir
@@ -26,16 +30,16 @@ ham Pythonda har bir instruktsiya alohida qatorda yozilishi shart. Ushbu hususiy
 Pythonning boshqa tillardan, masalan: `Java`, `C#` tillaridan farqli jihatlaridan biri
 hisoblanadi.
 
-Shunga qaramasdan Python tilining ba`zi konstruktsiyalari bir necha
+Shunga qaramasdan Python tilining ba'zi konstruktsiyalari bir necha
 qatorlarda yoziladi. Masalan if shart konstruktsiyasi shular jumlasidan:
 
 ```python
 if 10 < 20:
-print("Shart bajarildi")
+    print("Shart bajarildi")
 ```
 
-Bu holatda 10 soni 20 sonidan kichik va "Shart bajarildi" so'zi chiqariladi.
-print("Shart bajarildi") instruktsiyasi oldida albatta xat boshi bo'lishi shart, chunki
+Bu holatda 10 soni 20 sonidan kichik va `Shart bajarildi` so'zi chiqariladi.
+`print("Shart bajarildi")` instruktsiyasi oldida albatta xat boshi bo'lishi shart, chunki
 u alohida o'zi ishlatilmagan balki if shart konstruktsiyasining qismi sifatida
 qo'llanilgan. Odatda xat boshi 4 ga karrali probellar soni (4, 8,12) bilan yozish
 kelishilgan, lekin probellar soni 5 va undan ortiq bo'lsa ham dastur ishlaydi.
@@ -149,4 +153,4 @@ print("Salom", name)
 Natijaning konsol ekranidagi ko'rinishi quyidagicha bo'ladi:
 > F.I.O.: Eshmatov Toshmat  
 Salom Eshmatov Toshmat
-
+</Box>

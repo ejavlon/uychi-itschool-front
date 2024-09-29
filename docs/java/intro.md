@@ -3,7 +3,12 @@ sidebar_position: 1
 author: Javlon Ergashev
 tags: ['Java','Sun Microsystems','Oracle', 'OAK','James Gosling',' Patrick Naughton','Chris Warth','Ed Frank']
 date: 30-06-2024
+title: 'Kirish'
 ---
+import Box from '@mui/material/Box';
+
+<Box sx={{textAlign: 'justify'}}>
+
 # Kirish
 Java dasturlash tili 1991-yilda `James Gosling`, `Patrick Naughton`, `Chris Warth`, `Ed Frank` va `Mike Sheridanlar` tomonidan `Sun Microsystems` kompaniyasida yaratilgan. Tilning birinchi versiyasini yaratish uchun 18 oy vaqt ketgan. Bu til boshida `Oak` (eman) deb nomlangan edi, lekin keyinchalik 1995-yilda `Java` ga oʻzgartiligan. `Oak` ning 1992-yilning kuz oylaridagi birinchi tadbiq etilishi va 1995-yilning bahorida `Java` ning ommaga eʼlon qilinishidagi vaqt oraligʻida koʻplab odamlar bu tilning dizayni va evolyutsiyasiga oʻz hissalarini qoʻshishgan. `Bil Joy`, `Arthur van Hoff`, `Jonathan Payne`, `Frakn Yellin` va `Tim Lindhom` javaning asl prototipiga asosiy hissa qoʻshuvchilar hisoblanadi.
 
@@ -65,4 +70,4 @@ Javaning hozirgi barqaror versiyasi — Java SE 22.Hozirda, 2024-yil 10-iyul hol
 |Java SE 17 (LTS) |	Sentabr 14, 2021 |
 |Java SE 18	| Mart 22, 2022 |
 
-**Manba:** **[Wikipedia](https://uz.wikipedia.org/)**
+</Box>

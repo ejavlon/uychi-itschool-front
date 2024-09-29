@@ -48,3 +48,14 @@ javaScript:
   permalink: /javaScript
   description: JavaScript kalit so'ziga doir barcha postlar
 
+
+backend:
+  label: Backend
+  permalink: /backend
+  description: Backend kalit so'ziga doir barcha postlar
+
+java:
+  label: Java
+  permalink: /Java
+  description: Java kalit so'ziga doir barcha postlar
+

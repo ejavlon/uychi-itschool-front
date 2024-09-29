@@ -1,6 +1,11 @@
 ---
 sidebar_position: 5
+title: 'Boolean'
 ---
+
+import Box from '@mui/material/Box';
+
+<Box sx={{textAlign: 'justify'}}>
 
 # Boolean
 Dasturlashda siz ko'pincha shartning to'g'ri yoki noto'g'riligini tekshirishni va natijaga qarab ba'zi harakatlarni bajarilishi mumkin.
@@ -60,70 +65,71 @@ Murakkab ifodadagi biror bir qism ifodani
 qiymati False bo'lsa, ifodaning yakuniy qiymati `False` , aks holda `True` qiymat
 qaytaradi. Masalan:
 ```python
-yoshi = 21
-vazni = 72
-natija = yoshi > 17 and vazni == 72
-print(natija) # True
+age = 21
+weight = 72
+result = age > 17 and weight == 72
+print(result) # True
 ```
 
-Yuqoridagi dasturda murakkab mantiqiy amal ikki qismdan `yoshi > 17` va
-`vazni > 56` qismlardan tashkil topgan bo'lib, ular `and` mantiqiy operatori bilan
+Yuqoridagi dasturda murakkab mantiqiy amal ikki qismdan `age > 17` va
+`weight > 56` qismlardan tashkil topgan bo'lib, ular `and` mantiqiy operatori bilan
 birlashtirilgan. Agarda ikkala mantiqiy amal `True` qiymat qaytarsa ifodaning
 qiymati `True` bo'ladi, aks holda `False` qiymat qaytaradi
 
 `and` operatorining biror bir operandi False qiymatga ega bo‟lsa, u holda
-boshqa operand qiymati tekshirib (hisoblanib) o‟tirilmaydi, har doim natija False
-bo‟ladi. Bunday xususiyat ish unumdorligini bir oz bo‟lsada oshirish imkonini
-beradi. Xuddi shunaqa xususiyat or operatori uchun ham o‟rinli. Ya`ni or
-operatorining biror bir operandi qiymati True qiymatga ega bo'lsa, boshqa
+boshqa operand qiymati tekshirib (hisoblanib) o'tirilmaydi, har doim natija `False`
+bo'ladi. Bunday xususiyat ish unumdorligini bir oz bo'lsada oshirish imkonini
+beradi. Xuddi shunaqa xususiyat or operatori uchun ham o'rinli. Ya'ni `or`
+operatorining biror bir operandi qiymati `True` qiymatga ega bo'lsa, boshqa
 operandlar tekshirilmaydi, natija sifatida har doim True qiymati qaytariladi.
 
 Mantiqiy ifodalarda faqatgina taqqoslash amallaridan foydalanish shart emas.
 Ixtiyoriy mantiqiy amal yoki boolean turidagi qiymatlar `True`, `False` ham
 ishlatilishi mumkin. Masalan:
 ```python
-yoshi = 21
-vazni = 72
-t = True
-natija = yoshi > 17 and vazni > 56 and t
-print(natija) # True
+age = 21
+weight = 72
+status = True
+result = age > 17 and weight > 56 and status
+print(result) # True
 ```
 ### OR (mantiqiy qo'shish)
 Agarda ifodadagi biror bir qism ifoda `True` qiymat
 qaytarsa, yakuniy natija ham `True`, aks holda `False` bo'ladi
 ```python
-yoshi = 21
-t = False
-natija = yoshi > 17 or t
-print(natija) # True
+age = 21
+status = False
+result = age > 17 or status
+print(result) # True
 ```
 
 ### NOT (mantiqiy inkor)
 Ifodaning qiymatini `True` bo'lsa, natija `False` va
 aksincha.
 ```python
-yoshi = 21
-t = False
-print(not yoshi > 17) # False
-print(not t) # True
+age = 21
+status = False
+print(not age > 17) # False
+print(not status) # True
 ```
 
 Agar bitta ifodada bir nechta mantiqiy operatorlar qatnashgan bo'lsa, u holda
 ularning ustunligiga (prioritetiga) alohida e'tibor qatarish kerak. Dastlab `not`
 operatori keyin `and` va eng so'ngra `or` operatori bajariladi. Masalan:
 ```python
-yoshi = 22
-xolati = False
-vazni = 58
-natija = vazni == 58 or xolati and not yoshi > 21 # True
+age = 22
+status = False
+weight = 58
+result = weight == 58 or status and not age > 21 # True
 print(natija)
 ```
 Ushbu dasturda keltirilgan ifodadagi mantiqiy amallar kuyidagi ketmaketlikda bajariladi:
-    1. `not yoshi > 21` mantiqiy ifoda `False` qiymat qaytaradi;
-    2. `xolati and False` (not yoshi > 21) esa `False` qiymat qaytaradi;
-    3. `vazni == 58 or True` (xolati and not yoshi > 21) esa `True` qiymat qaytaradi
+    1. `not age > 21` mantiqiy ifoda `False` qiymat qaytaradi;
+    2. `status and False` (not age > 21) esa `False` qiymat qaytaradi;
+    3. `weight == 58 or True` (status and not age > 21) esa `True` qiymat qaytaradi
 
 :::info Yodda tuting
 Shuni alohida ta'kidlash kerarki, mantiqiy ifodalarda mantiqiy amallarning
 bajarilish ketma-ketligini qavslar `()` yordamida o'zgartirish mumkin.
 :::
+</Box>

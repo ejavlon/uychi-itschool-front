@@ -1,6 +1,11 @@
 ---
 sidebar_position: 4
+title: 'Numbers'
 ---
+
+import Box from '@mui/material/Box';
+
+<Box sx={{textAlign: 'justify'}}>
 
 # Numbers
 Python `integers`, `float` va `complex numbers` sonlar to'plamini qo'llab-quvvatlaydi.
@@ -86,8 +91,8 @@ bajariladi. Amallarning prioriteti kamayish tartibida quyidagi jadvalda ifodalan
     | `+`, `-`        | Chapdan-o'nga   |
 </div>
 ```python
-son = 12//7 + 2 ** 5 * (3 – 4)
-print(son) # -31
+number = 12//7 + 2 ** 5 * (3 – 4)
+print(number) # -31
 ```
 
 Shuni alohida ta'kidlash kerakki, arifmetik amallar butun sonlar uchun
@@ -97,20 +102,22 @@ haqiqiy turda ifodalanadi
 
 Yuqoridagi barcha arifmetik amallarni o'zlashtirish amali `=` bilan birgalikda
 (arifmetik amal va undan keyin `=` belgisi ketma-ket yoziladi) ishlatish mumkin.
+
 Masalan: `+=`, `-=`, `*=`, `/=`, `//=`, `%=`, `**=`. Bunday hollarda ifodaning o'ng tomonidagi
 barcha amallar hisoblanib, chiqqan natija chap tomondagi o‟zgaruvchi natijasi
 bilan mos arifmetik amal bajariladi va natija yana chap tomondagi o'zgaruvchiga
 yuklanadi. Masalan:
 ```python
-son = 2
-son += 3 # son = son + 3 amaliga teng kuchli, son=5 bo`ladi
-print(son) # 5
-son -= 1
-print(son) # 4
-son *= 4
-print(son) # 16
-son //= 2
-print(son) # 8
-son **= 2
-print(son) # 64
+number = 2
+number += 3 # number = number + 3 amaliga teng kuchli, number=5 bo`ladi
+print(number) # 5
+number -= 1
+print(number) # 4
+number *= 4
+print(number) # 16
+number //= 2
+print(number) # 8
+number **= 2
+print(number) # 64
 ```
+</Box>

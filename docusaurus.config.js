@@ -1,18 +1,16 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
-/** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'UYCHI IT SCHOOL',
   tagline: 'Zamonaviy kasblarni biz bilan birga o\'rganing',
-  favicon: 'img/favicon2.ico',
-
+  favicon: 'img/favicon2.ico',  
   url: 'https://uychi-itschool.uz',
   
   baseUrl: '/',
   
   organizationName: 'UYCHI IT SCHOOL', 
   projectName: 'uychi-itschool',
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'ignore',//throw
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
@@ -64,8 +62,6 @@ const config = {
     ],
   ],
 
-  
-
   themeConfig:    
     ({
 
@@ -109,16 +105,17 @@ const config = {
     
       
       colorMode:{
-        defaultMode:'light',
+        // defaultMode:'light',
+        defaultMode:'dark',
       },
-      announcementBar: {
-        id: 'support_us',
-        content:        
-          "<marquee behavior='scroll' direction='left'>Frontend va kompyuter savodxonligi kurslariga qabul davom etmoqda.Batafsil ma'lumot olish uchun qo'llab quvvatlash xizmati orqali murojaat qiling!</marquee> ",
-        backgroundColor: '#fafbfc',
-        textColor: 'black',        
-        isCloseable: true,
-      },
+      // announcementBar: {
+      //   id: 'support_us',
+      //   content:        
+      //     "<marquee behavior='scroll' direction='left'>Java backend va kompyuter savodxonligi kurslariga qabul davom etmoqda.Batafsil ma'lumot olish uchun qo'llab quvvatlash xizmati orqali murojaat qiling!</marquee> ",
+      //   backgroundColor: '#fafbfc',
+      //   textColor: 'black',        
+      //   isCloseable: true,
+      // },
       docs:{
         sidebar: {
           autoCollapseCategories: true,
@@ -150,18 +147,22 @@ const config = {
                 to: "/docs/java/intro",                
               },
               {                
-                label: "Python development",
+                label: "Python Development",
                 to: "/docs/python/intro",                
               },
-
             ]
           },                        
           {to: '/blog', label: 'Blog', position: 'right'},                    
+          // {
+          //   href: 'https://t.me/',
+          //   label: 'Telegram',
+          //   position: 'right',
+          // },
           {
-            href: 'https://t.me/',
-            label: 'Telegram',
+            to: '/auth/login',
+            label: 'Kirish',
             position: 'right',
-          },          
+          },
         ],
       },
       
@@ -232,5 +233,9 @@ const config = {
       },
     }),  
 };
+
+// module.exports = {
+//   onBrokenLinks: 'ignore',
+// }
 
 export default config;
