@@ -80,7 +80,7 @@ const config = {
 
         debug: false,
 
-        placeholder: 'Search',    
+        placeholder: 'Qidirish...',    
   
         // Optional: see doc section below
         contextualSearch: true,
@@ -184,7 +184,7 @@ const config = {
               },
               {
                 label: 'Grafik dizayn',
-                to: '/docs/intro',
+                to: '/docs/design/intro',
               },
             ],
           },
