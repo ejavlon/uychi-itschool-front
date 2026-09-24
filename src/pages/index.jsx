@@ -1,11 +1,12 @@
+import React from 'react';
 import Layout from '@theme/Layout';
 import HomepageFeatures from '../components/HomepageFeatures';
-import { useEffect } from 'react';
 
 export default function Home() {  
   return (
     <Layout            
-      description="Zamoviy kasblarni biz bilan birga o'rganing!">      
+      title="Bosh sahifa"
+      description="Javlon Ergashev — Dasturlash va axborot texnologiyalari bo'yicha shaxsiy qo'llanmalar va konspektlar to'plami">      
       <main>
         <HomepageFeatures />      
       </main>

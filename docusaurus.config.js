@@ -1,40 +1,22 @@
 import {themes as prismThemes} from 'prism-react-renderer';
 
 const config = {
-  title: 'UYCHI IT SCHOOL',
-  tagline: 'Zamonaviy kasblarni biz bilan birga o\'rganing',
+  title: "Javlon Ergashev | Qo'llanmalar",
+  tagline: "Dasturlash va axborot texnologiyalari bo'yicha shaxsiy qo'llanmalar va konspektlar",
   favicon: 'img/favicon2.ico',  
-  url: 'https://uychi-itschool.uz',
+  url: 'https://docs.javlon.blog',
   
   baseUrl: '/',
   
-  organizationName: 'UYCHI IT SCHOOL', 
-  projectName: 'uychi-itschool',
-  onBrokenLinks: 'ignore',//throw
+  organizationName: 'ejavlon', 
+  projectName: 'docs',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'uz',
+    locales: ['uz'],
   },
-
-  // plugins: [
-  //   [
-  //     require.resolve('docusaurus-lunr-search'),
-  //     {
-  //       languages: ['en'],
-  //       indexBaseUrl : true, // index base url
-  //       // excludeRoutes : ["/ignore-endpoints"], // ignore endpoints
-  //       // includeRoutes : ["/"] //Include only specific routes for search
-  //       stopWords : [],// Add stop words(words that are exclude from search result) to the search index
-  //       excludeTags : [],//Exclude certain tags from the search
-  //       highlightResult : true, //Enable it to highlight the searched word in the result page. Used mark.js for highlighting. You can customize the highlight color using cssmark  { background-color: red !important; color: green !important }
-  //       disableVersioning : true, //Docs versions are displayed by default. If you want to hide it, set this plugin option to true
-  //       maxHits : 5 // Maximum number of hits shown
-        
-  //     }
-  //   ]
-  // ],
 
   presets: [
     [
@@ -44,21 +26,15 @@ const config = {
           sidebarPath: './sidebars.js',      
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
-          // editUrl:
-          //   'https://github.com/ejavlon/uychi-itschool/docs',
         },            
         blog: {
           showReadingTime: true,
           showLastUpdateAuthor: true,        
           showLastUpdateTime: true,      
           blogSidebarTitle: 'Barcha postlar',
-                    
-          // editUrl:
-          //   'https://github.com/ejavlon/uychi-itschool/blog',
         },
         theme: {
           customCss: './src/css/custom.css',
-          
         },
       }),
     ],
@@ -66,59 +42,23 @@ const config = {
 
   themeConfig:    
     ({
-
       algolia: {
-        // The application ID provided by Algolia
         appId: 'VSINCO19CA',
-        
-        // Public API key: it is safe to commit it
         apiKey: 'a6e02847c0f8d27ced2f6d470ad8381d',
-
         indexName: 'uychi-itschool',
-        
         container: "",
-
         debug: false,
-
-        placeholder: 'Qidirish...',    
-  
-        // Optional: see doc section below
+        placeholder: 'Qidirish (Ctrl+K)...',    
         contextualSearch: true,
-  
-        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
-        // externalUrlRegex: 'external\\.com|domain\\.com',
-          
-        // replaceSearchResultPathname: {
-        //   from: '/docs/', // or as RegExp: /\/docs\//
-        //   to: '/',
-        // },
-  
-        // Optional: Algolia search parameters
         searchParameters: {},
-  
-        // Optional: path for search page that enabled by default (`false` to disable it)
-        // searchPagePath: 'search',
-  
-        // Optional: whether the insights feature is enabled or not on Docsearch (`false` by default)
-        // insights: false,
-  
-        
-      }, //endalgolia
-    
-      
-      colorMode:{
-        // defaultMode:'light',
-        defaultMode:'dark',
       },
-      // announcementBar: {
-      //   id: 'support_us',
-      //   content:        
-      //     "<marquee behavior='scroll' direction='left'>Java backend va kompyuter savodxonligi kurslariga qabul davom etmoqda.Batafsil ma'lumot olish uchun qo'llab quvvatlash xizmati orqali murojaat qiling!</marquee> ",
-      //   backgroundColor: '#fafbfc',
-      //   textColor: 'black',        
-      //   isCloseable: true,
-      // },
-      docs:{
+      
+      colorMode: {
+        defaultMode: 'dark',
+        respectPrefersColorScheme: true,
+      },
+
+      docs: {
         sidebar: {
           autoCollapseCategories: true,
         },
@@ -126,23 +66,21 @@ const config = {
       
       image: 'img/it.jpg',
       navbar: {
-        // style:'dark',
-        title: 'UYCHI IT SCHOOL',
+        title: 'docs.javlon.blog',
         logo: {
-          alt: 'site logo',
-          src: 'img/favicon.ico',
+          alt: 'Javlon Logo',
+          src: 'img/favicon2.ico',
         },
         
         items: [              
           {            
             type: 'dropdown',
-            position: 'right',
-            label: 'Academy',            
-            items:[              
+            position: 'left',
+            label: "Qo'llanmalar",            
+            items: [              
               {                
-                label: "Fronted Development",
+                label: "Frontend Development",
                 to: "/docs/frontend/intro",                
-
               },
               {                
                 label: "Java Development",
@@ -152,82 +90,30 @@ const config = {
                 label: "Python Development",
                 to: "/docs/python/intro",                
               },
+              {                
+                label: "Grafik Dizayn",
+                to: "/docs/design/intro",                
+              },
             ]
           },                        
-          {to: '/blog', label: 'Blog', position: 'right'},                    
-          // {
-          //   href: 'https://t.me/',
-          //   label: 'Telegram',
-          //   position: 'right',
-          // },
+          {to: '/blog', label: 'Blog', position: 'left'},                    
           {
-            to: '/auth/login',
-            label: 'Kirish',
+            href: 'https://javlon.blog',
+            label: 'Asosiy Blog',
+            position: 'right',
+          },
+          {
+            href: 'https://github.com/ejavlon',
+            label: 'GitHub',
             position: 'right',
           },
         ],
       },
       
       footer: {
-        // style: 'dark',
-        links: [
-          {
-            title: 'Kurslarimiz',
-            items: [                       
-              {
-                label: 'Frontend Development',
-                to: '/docs/frontend/intro',
-              },
-              {
-                label: 'Java Development ',
-                to: '/docs/java/intro',
-              },
-              {
-                label: 'Grafik dizayn',
-                to: '/docs/design/intro',
-              },
-            ],
-          },
-          {
-            title: 'Hamjamiyat',
-            items: [
-              {
-                label: 'GitHub',
-                href: 'https://github.com/',
-              },              
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/',
-              },
-            ],
-          },
-          {
-            title: 'Itimoiy tarmoqdagi sahifalarimiz',
-            items: [                          
-              {
-                label: 'Telegram',
-                href: 'https://t.me/',
-              },
-              {
-                label: 'Instagram',
-                href: 'https://instagram.com/',
-              },
-              {
-                label: 'YouTube',
-                href: 'https://youtube.com/',
-              },
-            ],
-          },
-        ],
-        copyright: `© ${new Date().getFullYear()} UYCHI IT SCHOOL`,
+        style: 'dark',
+        links: [],
+        copyright: `© ${new Date().getFullYear()} Javlon Ergashev. Shaxsiy qo'llanmalar to'plami`,
       },
       prism: {
         theme: prismThemes.github,
@@ -235,9 +121,5 @@ const config = {
       },
     }),  
 };
-
-// module.exports = {
-//   onBrokenLinks: 'ignore',
-// }
 
 export default config;
