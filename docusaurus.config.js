@@ -51,10 +51,6 @@ const config = {
         placeholder: 'Qidirish (Ctrl+K)...',    
         contextualSearch: false,
         searchParameters: {},
-        replaceSearchResultPathname: {
-          from: 'https://uychi-itschool.uz',
-          to: '',
-        },
       },
       
       colorMode: {
