@@ -23,13 +23,6 @@ const DOCS_LIST = [
     tags: ['Python', 'Sintaksis', 'Algoritmlar'],
     link: '/docs/python/intro',
   },
-  {
-    title: 'Grafik Dizayn',
-    icon: '🎨',
-    description: "Grafik dizayn qoidalari, vizual kompozitsiya va dizayn vositalari bo'yicha qo'llanma.",
-    tags: ['UI/UX', 'Photoshop', 'Dizayn asoslari'],
-    link: '/docs/design/intro',
-  },
 ];
 
 export default function HomepageFeatures() {
@@ -47,7 +40,7 @@ export default function HomepageFeatures() {
         </h1>
         
         <p className="hero-description">
-          Frontend, Java, Python va Dizayn bo'yicha tizimlashtirilgan konspektlar, 
+          Frontend, Java va Python bo'yicha tizimlashtirilgan konspektlar, 
           amaliy kodlar va qadamma-qadam qo'llanmalar.
         </p>
 

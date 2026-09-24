@@ -49,8 +49,12 @@ const config = {
         container: "",
         debug: false,
         placeholder: 'Qidirish (Ctrl+K)...',    
-        contextualSearch: true,
+        contextualSearch: false,
         searchParameters: {},
+        replaceSearchResultPathname: {
+          from: 'https://uychi-itschool.uz',
+          to: '',
+        },
       },
       
       colorMode: {
@@ -89,10 +93,6 @@ const config = {
               {                
                 label: "Python Development",
                 to: "/docs/python/intro",                
-              },
-              {                
-                label: "Grafik Dizayn",
-                to: "/docs/design/intro",                
               },
             ]
           },                        
