@@ -5,25 +5,7 @@ javlon:
   image_url: https://github.com/ejavlon.png
 
 sherzod:
-  name: Sherzod Nazarov
+  name: test user
   title: Manager
-  url: https://t.me/NazarovSherzod
-  image_url: /img/unknown-user.png
-
-axrorbek:
-  name: Axrorbek Mamadaliyev
-  title: Teacher, Graphic Designer
-  url: https://t.me/ahrorbek_mamadaliyev
-  image_url: /img/teacher-ahror.jpg
-
-anazbek:
-  name: Anazbek Mirvaliyev
-  title: Software Engineer, Graphic Designer, Teacher
-  url: https://t.me/Mirvaliyev_Anazbek
-  image_url: /img/unknown-user.png
-
-rahmatilla:
-  name: Rahmatilla
-  title: Teacher
-  url: https://t.me/itmaktabuychi
+  url: https://t.me/test
   image_url: /img/unknown-user.png

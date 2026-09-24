@@ -3,7 +3,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 const config = {
   title: "Javlon Ergashev | Qo'llanmalar",
   tagline: "Dasturlash va axborot texnologiyalari bo'yicha shaxsiy qo'llanmalar va konspektlar",
-  favicon: 'img/favicon2.ico',  
+  favicon: 'img/favicon.svg',  
   url: 'https://docs.javlon.blog',
   
   baseUrl: '/',
@@ -68,8 +68,8 @@ const config = {
       navbar: {
         title: 'docs.javlon.blog',
         logo: {
-          alt: 'Javlon Logo',
-          src: 'img/favicon2.ico',
+          alt: 'Javlon Docs Logo',
+          src: 'img/logo.svg',
         },
         
         items: [              

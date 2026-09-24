@@ -31,16 +31,16 @@ export default function HomepageFeatures() {
       {/* Hero Section */}
       <section className="hero-wrapper">
         <div className="hero-badge">
-          <span>✨ docs.javlon.blog</span>
+          <span>docs.javlon.blog</span>
         </div>
-        
+
         <h1 className="hero-title">
           Dasturlash va Texnologiyalar <br />
           <span className="hero-title-gradient">Qo'llanmalar To'plami</span>
         </h1>
-        
+
         <p className="hero-description">
-          Frontend, Java va Python bo'yicha tizimlashtirilgan konspektlar, 
+          Frontend, Java va Python bo'yicha tizimlashtirilgan konspektlar,
           amaliy kodlar va qadamma-qadam qo'llanmalar.
         </p>
 
@@ -51,13 +51,13 @@ export default function HomepageFeatures() {
           <Link className="btn-secondary-custom" to="/blog">
             Blog Postlari
           </Link>
-          <a 
-            className="btn-secondary-custom" 
-            href="https://javlon.blog" 
-            target="_blank" 
+          <a
+            className="btn-secondary-custom"
+            href="https://javlon.blog"
+            target="_blank"
             rel="noopener noreferrer"
           >
-            Asosiy Blog (javlon.blog) ↗
+            Asosiy Blog (javlon.blog)
           </a>
         </div>
       </section>
@@ -77,7 +77,7 @@ export default function HomepageFeatures() {
               <div className="card-icon">{item.icon}</div>
               <h3 className="card-title">{item.title}</h3>
               <p className="card-desc">{item.description}</p>
-              
+
               <div className="card-topics">
                 {item.tags.map((tag, tIdx) => (
                   <span key={tIdx} className="topic-tag">{tag}</span>
@@ -98,15 +98,15 @@ export default function HomepageFeatures() {
           <div className="about-content">
             <h3>Javlon Ergashev</h3>
             <p>
-              Ushbu sahifada men dasturlash faoliyatim davomida o'rgangan va yozgan barcha 
+              Ushbu sahifada men dasturlash faoliyatim davomida o'rgangan va yozgan barcha
               muhim ma'lumotlar, qo'llanmalar hamda konspektlarni bir joyga jamlaganman.
             </p>
           </div>
           <div>
-            <a 
-              href="https://t.me/ejavlon" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://t.me/ejavlon"
+              target="_blank"
+              rel="noopener noreferrer"
               className="btn-secondary-custom"
             >
               Telegram orqali bog'lanish ↗
