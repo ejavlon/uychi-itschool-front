@@ -14,8 +14,8 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
 
   i18n: {
-    defaultLocale: 'uz',
-    locales: ['uz'],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
@@ -23,14 +23,12 @@ const config = {
       'classic',      
       ({
         docs: {          
-          sidebarPath: './sidebars.js',      
+          sidebarPath: './sidebars.js',
           showLastUpdateAuthor: true,
           showLastUpdateTime: true,
         },            
         blog: {
           showReadingTime: true,
-          showLastUpdateAuthor: true,        
-          showLastUpdateTime: true,      
           blogSidebarTitle: 'Barcha postlar',
         },
         theme: {
@@ -76,7 +74,7 @@ const config = {
           {            
             type: 'dropdown',
             position: 'left',
-            label: "Qo'llanmalar",            
+            label: "Dasturlash",            
             items: [              
               {                
                 label: "Frontend Development",
@@ -89,6 +87,21 @@ const config = {
               {                
                 label: "Python Development",
                 to: "/docs/python/intro",                
+              },
+            ]
+          },
+          {            
+            type: 'dropdown',
+            position: 'left',
+            label: "OS",            
+            items: [              
+              {                
+                label: "Windows",
+                to: "/docs/windows/intro",                
+              },
+              {                
+                label: "Linux",
+                to: "/docs/linux/intro",                
               },
             ]
           },                        
